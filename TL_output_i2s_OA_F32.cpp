@@ -35,21 +35,21 @@
 #include "TL_output_i2s_OA_f32.h"
 #include "memcpy_audio.h"
 
-audio_block_t * AudioOutputI2S_OA_F32::block_left_1st = NULL;
-audio_block_t * AudioOutputI2S_OA_F32::block_right_1st = NULL;
-audio_block_t * AudioOutputI2S_OA_F32::block_left_2nd = NULL;
-audio_block_t * AudioOutputI2S_OA_F32::block_right_2nd = NULL;
-uint16_t  AudioOutputI2S_OA_F32::block_left_offset = 0;
-uint16_t  AudioOutputI2S_OA_F32::block_right_offset = 0;
-bool AudioOutputI2S_OA_F32::update_responsibility = false;
-DMAChannel AudioOutputI2S_OA_F32::dma(false);
+audio_block_t * TL_AudioOutputI2S_OA_F32::block_left_1st = NULL;
+audio_block_t * TL_AudioOutputI2S_OA_F32::block_right_1st = NULL;
+audio_block_t * TL_AudioOutputI2S_OA_F32::block_left_2nd = NULL;
+audio_block_t * TL_AudioOutputI2S_OA_F32::block_right_2nd = NULL;
+uint16_t  TL_AudioOutputI2S_OA_F32::block_left_offset = 0;
+uint16_t  TL_AudioOutputI2S_OA_F32::block_right_offset = 0;
+bool TL_AudioOutputI2S_OA_F32::update_responsibility = false;
+DMAChannel TL_AudioOutputI2S_OA_F32::dma(false);
 DMAMEM __attribute__((aligned(32))) static uint32_t i2s_tx_buffer[AUDIO_BLOCK_SAMPLES];
 
 #if defined(__IMXRT1062__)
 #include "utility/imxrt_hw.h"
 #endif
 
-void AudioOutputI2S_OA_F32::begin(void)
+void TL_AudioOutputI2S_OA_F32::begin(void)
 {
     dma.begin(true); // Allocate the DMA channel first
     block_left_1st = NULL;
@@ -101,7 +101,7 @@ void AudioOutputI2S_OA_F32::begin(void)
                                                  //Serial.println("CCC");
 }    // end begin()
 
-void AudioOutputI2S_OA_F32::isr(void)
+void TL_AudioOutputI2S_OA_F32::isr(void)
 {
 #if defined(KINETISK) || defined(__IMXRT1062__)
     int16_t *dest;
@@ -114,17 +114,17 @@ void AudioOutputI2S_OA_F32::isr(void)
         // DMA is transmitting the first half of the buffer
         // so we must fill the second half
         dest = (int16_t *)&i2s_tx_buffer[AUDIO_BLOCK_SAMPLES/2];
-        if (AudioOutputI2S_OA_F32::update_responsibility) AudioStream_F32::update_all();
+        if (TL_AudioOutputI2S_OA_F32::update_responsibility) AudioStream_F32::update_all();
     } else {
         // DMA is transmitting the second half of the buffer
         // so we must fill the first half
         dest = (int16_t *)i2s_tx_buffer;
     }
 
-    blockL = AudioOutputI2S_OA_F32::block_left_1st;  // These 2 are I16*
-    blockR = AudioOutputI2S_OA_F32::block_right_1st;
-    offsetL = AudioOutputI2S_OA_F32::block_left_offset;
-    offsetR = AudioOutputI2S_OA_F32::block_right_offset;
+    blockL = TL_AudioOutputI2S_OA_F32::block_left_1st;  // These 2 are I16*
+    blockR = TL_AudioOutputI2S_OA_F32::block_right_1st;
+    offsetL = TL_AudioOutputI2S_OA_F32::block_left_offset;
+    offsetR = TL_AudioOutputI2S_OA_F32::block_right_offset;
 
     if (blockL && blockR) {
         memcpy_tointerleaveLR(dest, blockL->data + offsetL, blockR->data + offsetR);
@@ -143,20 +143,20 @@ void AudioOutputI2S_OA_F32::isr(void)
     arm_dcache_flush_delete(dest, sizeof(i2s_tx_buffer) / 2 );
 
     if (offsetL < AUDIO_BLOCK_SAMPLES) {
-        AudioOutputI2S_OA_F32::block_left_offset = offsetL;
+        TL_AudioOutputI2S_OA_F32::block_left_offset = offsetL;
     } else {
-        AudioOutputI2S_OA_F32::block_left_offset = 0;
+        TL_AudioOutputI2S_OA_F32::block_left_offset = 0;
         AudioStream::release(blockL);
-        AudioOutputI2S_OA_F32::block_left_1st = AudioOutputI2S_OA_F32::block_left_2nd;
-        AudioOutputI2S_OA_F32::block_left_2nd = NULL;
+        TL_AudioOutputI2S_OA_F32::block_left_1st = TL_AudioOutputI2S_OA_F32::block_left_2nd;
+        TL_AudioOutputI2S_OA_F32::block_left_2nd = NULL;
     }
     if (offsetR < AUDIO_BLOCK_SAMPLES) {
-        AudioOutputI2S_OA_F32::block_right_offset = offsetR;
+        TL_AudioOutputI2S_OA_F32::block_right_offset = offsetR;
     } else {
-        AudioOutputI2S_OA_F32::block_right_offset = 0;
+        TL_AudioOutputI2S_OA_F32::block_right_offset = 0;
         AudioStream::release(blockR);
-        AudioOutputI2S_OA_F32::block_right_1st = AudioOutputI2S_OA_F32::block_right_2nd;
-        AudioOutputI2S_OA_F32::block_right_2nd = NULL;
+        TL_AudioOutputI2S_OA_F32::block_right_1st = TL_AudioOutputI2S_OA_F32::block_right_2nd;
+        TL_AudioOutputI2S_OA_F32::block_right_2nd = NULL;
     }
 #else
     // This is T3.x, x<5.  Those would not seem to be candidates for F32 audio processing?
@@ -172,7 +172,7 @@ void AudioOutputI2S_OA_F32::isr(void)
         // so we must fill the second half
         dest = (int16_t *)&i2s_tx_buffer[AUDIO_BLOCK_SAMPLES/2];
         end = (int16_t *)&i2s_tx_buffer[AUDIO_BLOCK_SAMPLES];
-        if (AudioOutputI2S_OA_F32::update_responsibility) AudioStream::update_all();
+        if (TL_AudioOutputI2S_OA_F32::update_responsibility) AudioStream::update_all();
     } else {
         // DMA is transmitting the second half of the buffer
         // so we must fill the first half
@@ -180,9 +180,9 @@ void AudioOutputI2S_OA_F32::isr(void)
         end = (int16_t *)&i2s_tx_buffer[AUDIO_BLOCK_SAMPLES/2];
     }
 
-    block = AudioOutputI2S_OA_F32::block_left_1st;
+    block = TL_AudioOutputI2S_OA_F32::block_left_1st;
     if (block) {
-        offset = AudioOutputI2S_OA_F32::block_left_offset;
+        offset = TL_AudioOutputI2S_OA_F32::block_left_offset;
         src = &block->data[offset];
         do {
             *dest = *src++;
@@ -190,12 +190,12 @@ void AudioOutputI2S_OA_F32::isr(void)
         } while (dest < end);
         offset += AUDIO_BLOCK_SAMPLES/2;
         if (offset < AUDIO_BLOCK_SAMPLES) {
-            AudioOutputI2S_OA_F32::block_left_offset = offset;
+            TL_AudioOutputI2S_OA_F32::block_left_offset = offset;
         } else {
-            AudioOutputI2S_OA_F32::block_left_offset = 0;
+            TL_AudioOutputI2S_OA_F32::block_left_offset = 0;
             AudioStream::release(block);
-            AudioOutputI2S_OA_F32::block_left_1st = AudioOutputI2S_OA_F32::block_left_2nd;
-            AudioOutputI2S_OA_F32::block_left_2nd = NULL;
+            TL_AudioOutputI2S_OA_F32::block_left_1st = TL_AudioOutputI2S_OA_F32::block_left_2nd;
+            TL_AudioOutputI2S_OA_F32::block_left_2nd = NULL;
         }
     } else {
         do {
@@ -204,9 +204,9 @@ void AudioOutputI2S_OA_F32::isr(void)
         } while (dest < end);
     }
     dest -= AUDIO_BLOCK_SAMPLES - 1;
-    block = AudioOutputI2S_OA_F32::block_right_1st;
+    block = TL_AudioOutputI2S_OA_F32::block_right_1st;
     if (block) {
-        offset = AudioOutputI2S_OA_F32::block_right_offset;
+        offset = TL_AudioOutputI2S_OA_F32::block_right_offset;
         src = &block->data[offset];
         do {
             *dest = *src++;
@@ -214,12 +214,12 @@ void AudioOutputI2S_OA_F32::isr(void)
         } while (dest < end);
         offset += AUDIO_BLOCK_SAMPLES/2;
         if (offset < AUDIO_BLOCK_SAMPLES) {
-            AudioOutputI2S_OA_F32::block_right_offset = offset;
+            TL_AudioOutputI2S_OA_F32::block_right_offset = offset;
         } else {
-            AudioOutputI2S_OA_F32::block_right_offset = 0;
+            TL_AudioOutputI2S_OA_F32::block_right_offset = 0;
             AudioStream::release(block);
-            AudioOutputI2S_OA_F32::block_right_1st = AudioOutputI2S_OA_F32::block_right_2nd;
-            AudioOutputI2S_OA_F32::block_right_2nd = NULL;
+            TL_AudioOutputI2S_OA_F32::block_right_1st = TL_AudioOutputI2S_OA_F32::block_right_2nd;
+            TL_AudioOutputI2S_OA_F32::block_right_2nd = NULL;
         }
     } else {
         do {
@@ -230,7 +230,7 @@ void AudioOutputI2S_OA_F32::isr(void)
 #endif
 }
 
-void AudioOutputI2S_OA_F32::update(void)
+void TL_AudioOutputI2S_OA_F32::update(void)
 {
     audio_block_f32_t *blockF32;
     audio_block_t *blockI16;
@@ -345,7 +345,7 @@ void AudioOutputI2S_OA_F32::update(void)
 #endif
 #endif
 
-void AudioOutputI2S_OA_F32::config_i2s(void)
+void TL_AudioOutputI2S_OA_F32::config_i2s(void)
 {
 #if defined(KINETISK) || defined(KINETISL)
     SIM_SCGC6 |= SIM_SCGC6_I2S;
@@ -448,6 +448,10 @@ void AudioOutputI2S_OA_F32::config_i2s(void)
 }
 
 
+
+
+
+#if 0
 /******************************************************************/
 
 void AudioOutputI2Sslave_OA_F32::begin(void)
@@ -581,3 +585,4 @@ void AudioOutputI2Sslave_OA_F32::config_i2s(void)
 
 #endif
 }
+#endif

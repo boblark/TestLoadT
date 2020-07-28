@@ -4,9 +4,14 @@
 #include <Audio.h>
 #include <TL_OpenAudio_ArduinoLibrary.h>
 
-// If begin() is in constructor, load fails, if in setup, all is OK
+
+// *****************  PLACE TO CHANGE  *****************
+// If begin() is in constructor, i.e., BEGIN_IN_CONSTRUCTOR==1  load fails
+// If begin() is in setup(), i.e., BEGIN_IN_CONSTRUCTOR==0  all is OK
 // Change by next define 1 or 0
-#define BEGIN_IN_CONSTRUCTOR 1;
+#define BEGIN_IN_CONSTRUCTOR 0
+// *****************************************************
+
 
 AudioSynthWaveformSine_F32  sine1;
 TL_AudioOutputI2S_OA_F32    i2sOut(BEGIN_IN_CONSTRUCTOR);

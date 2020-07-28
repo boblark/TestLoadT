@@ -1,0 +1,1576 @@
+*****   STARTUP PC;  See line 1416 and following for Teensy loads, good and bad
+
+Jul 28 14:41:04 bob-desktop systemd-modules-load[384]: Inserted module 'lp'
+Jul 28 14:41:04 bob-desktop systemd-modules-load[384]: Inserted module 'ppdev'
+Jul 28 14:41:04 bob-desktop systemd-modules-load[384]: Inserted module 'parport_pc'
+Jul 28 14:41:04 bob-desktop systemd-sysctl[418]: Couldn't write '15000000' to 'vm/dirty/bytes', ignoring: No such file or directory
+Jul 28 14:41:04 bob-desktop systemd-udevd[421]: GOTO 'nm_modem_probe_end' has no matching label in: '/lib/udev/rules.d/77-nm-probe-modem-capabilities.rules'
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Flush Journal to Persistent Storage...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started udev Coldplug all Devices.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Set the console keyboard layout.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Local File Systems (Pre).
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Local File Systems.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Set console font and keymap...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting AppArmor initialization...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Show Plymouth Boot Screen...
+Jul 28 14:41:04 bob-desktop mtp-probe: checking bus 3, device 3: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-13"
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Set console font and keymap.
+Jul 28 14:41:04 bob-desktop apparmor[449]:  * Starting AppArmor profiles
+Jul 28 14:41:04 bob-desktop mtp-probe: checking bus 3, device 4: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9.4"
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jul 28 14:41:04 bob-desktop apparmor[449]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Jul 28 14:41:04 bob-desktop mtp-probe: bus: 3, device: 3 was not an MTP device
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Show Plymouth Boot Screen.
+Jul 28 14:41:04 bob-desktop apparmor[449]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Jul 28 14:41:04 bob-desktop mtp-probe: bus: 3, device: 4 was not an MTP device
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jul 28 14:41:04 bob-desktop apparmor[449]:    ...done.
+Jul 28 14:41:04 bob-desktop root: loading HP Device 005 002
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Local Encrypted Volumes.
+Jul 28 14:41:04 bob-desktop systemd[1]: Activated swap /swapfile.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Swap.
+Jul 28 14:41:04 bob-desktop systemd-udevd[436]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jul 28 14:41:04 bob-desktop systemd-udevd[443]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started AppArmor initialization.
+Jul 28 14:41:04 bob-desktop systemd-udevd[432]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Sound Card.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Flush Journal to Persistent Storage.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Create Volatile Files and Directories...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Create Volatile Files and Directories.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Network Name Resolution...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Network Time Synchronization...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jul 28 14:41:04 bob-desktop systemd-resolved[647]: Positive Trust Anchors:
+Jul 28 14:41:04 bob-desktop systemd-resolved[647]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Jul 28 14:41:04 bob-desktop systemd-resolved[647]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Jul 28 14:41:04 bob-desktop systemd-resolved[647]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Jul 28 14:41:04 bob-desktop systemd-resolved[647]: Using system hostname 'bob-desktop'.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Network Name Resolution.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Host and Network Name Lookups.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Network Time Synchronization.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target System Initialization.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started CUPS Scheduler.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on UUID daemon activation socket.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on ACPID Listen Socket.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started ACPI Events Check.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Paths.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on CUPS Scheduler.
+Jul 28 14:41:04 bob-desktop systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Sockets.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Basic System.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Save/Restore Sound Card State...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting LSB: automatic crash report generation...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Resets System Activity Data Collector...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started ACPI event daemon.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Regular background program processing daemon.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started CUPS Scheduler.
+Jul 28 14:41:04 bob-desktop cron[658]: (CRON) INFO (pidfile fd = 3)
+Jul 28 14:41:04 bob-desktop systemd[1]: Started irqbalance daemon.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Set the CPU Frequency Scaling governor.
+Jul 28 14:41:04 bob-desktop cron[658]: (CRON) INFO (Running @reboot jobs)
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Accounts Service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Login Service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting System Logging Service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting PostgreSQL Cluster 10-main...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Disk Manager...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Thermal Daemon Service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started D-Bus System Message Bus.
+Jul 28 14:41:04 bob-desktop rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] microcode: microcode updated early to revision 0x28, date = 2019-11-12
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] Linux version 5.3.0-62-generic (buildd@lcy01-amd64-004) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #56~18.04.1-Ubuntu SMP Wed Jun 24 16:17:03 UTC 2020 (Ubuntu 5.3.0-62.56~18.04.1-generic 5.3.18)
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.3.0-62-generic root=UUID=8e784657-5795-4ba5-93cf-0caa93fc3565 ro quiet splash vt.handoff=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] KERNEL supported cpus:
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000]   Intel GenuineIntel
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000]   AMD AuthenticAMD
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000]   Hygon HygonGenuine
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000]   Centaur CentaurHauls
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000]   zhaoxin   Shanghai  
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-provided physical RAM map:
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009d7ff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x000000000009d800-0x000000000009ffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000a9eaefff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000a9eaf000-0x00000000a9eb5fff] ACPI NVS
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000a9eb6000-0x00000000aabc9fff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000aabca000-0x00000000ab0fffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000ab100000-0x00000000bd135fff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bd136000-0x00000000bd1c4fff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bd1c5000-0x00000000bd20bfff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bd20c000-0x00000000bd346fff] ACPI NVS
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bd347000-0x00000000bdffefff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bdfff000-0x00000000bdffffff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000bf000000-0x00000000cf1fffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed03fff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000042fdfffff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] NX (Execute Disable) protection: active
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] SMBIOS 2.8 present.
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] DMI: To Be Filled By O.E.M. To Be Filled By O.E.M./Z97 Extreme6, BIOS P1.40 09/15/2014
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jul 28 14:41:04 bob-desktop kernel: [    0.000000] tsc: Detected 3599.220 MHz processor
+Jul 28 14:41:04 bob-desktop kernel: [    0.001407] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.001408] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001412] last_pfn = 0x42fe00 max_arch_pfn = 0x400000000
+Jul 28 14:41:04 bob-desktop kernel: [    0.001415] MTRR default type: uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001415] MTRR fixed ranges enabled:
+Jul 28 14:41:04 bob-desktop kernel: [    0.001416]   00000-9FFFF write-back
+Jul 28 14:41:04 bob-desktop kernel: [    0.001416]   A0000-BFFFF uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001417]   C0000-CFFFF write-protect
+Jul 28 14:41:04 bob-desktop kernel: [    0.001417]   D0000-E7FFF uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001418]   E8000-FFFFF write-protect
+Jul 28 14:41:04 bob-desktop kernel: [    0.001418] MTRR variable ranges enabled:
+Jul 28 14:41:04 bob-desktop kernel: [    0.001419]   0 base 0000000000 mask 7C00000000 write-back
+Jul 28 14:41:04 bob-desktop kernel: [    0.001420]   1 base 0400000000 mask 7FE0000000 write-back
+Jul 28 14:41:04 bob-desktop kernel: [    0.001420]   2 base 0420000000 mask 7FF0000000 write-back
+Jul 28 14:41:04 bob-desktop kernel: [    0.001421]   3 base 00C0000000 mask 7FC0000000 uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001421]   4 base 00BF000000 mask 7FFF000000 uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001422]   5 base 042FE00000 mask 7FFFE00000 uncachable
+Jul 28 14:41:04 bob-desktop kernel: [    0.001422]   6 disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.001423]   7 disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.001423]   8 disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.001423]   9 disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.001679] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jul 28 14:41:04 bob-desktop kernel: [    0.001795] total RAM covered: 16110M
+Jul 28 14:41:04 bob-desktop kernel: [    0.001962] Found optimal setting for mtrr clean up
+Jul 28 14:41:04 bob-desktop kernel: [    0.001963]  gran_size: 64K 	chunk_size: 32M 	num_reg: 8  	lose cover RAM: 0G
+Jul 28 14:41:04 bob-desktop kernel: [    0.002204] e820: update [mem 0xbf000000-0xffffffff] usable ==> reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.002207] last_pfn = 0xbe000 max_arch_pfn = 0x400000000
+Jul 28 14:41:04 bob-desktop kernel: [    0.007693] found SMP MP-table at [mem 0x000fda90-0x000fda9f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.014813] check: Scanning 1 areas for low memory corruption
+Jul 28 14:41:04 bob-desktop kernel: [    0.014815] Using GB pages for direct mapping
+Jul 28 14:41:04 bob-desktop kernel: [    0.014817] BRK [0x2f801000, 0x2f801fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014818] BRK [0x2f802000, 0x2f802fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014818] BRK [0x2f803000, 0x2f803fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014832] BRK [0x2f804000, 0x2f804fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014833] BRK [0x2f805000, 0x2f805fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014834] BRK [0x2f806000, 0x2f806fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014980] BRK [0x2f807000, 0x2f807fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.014991] BRK [0x2f808000, 0x2f808fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.015000] BRK [0x2f809000, 0x2f809fff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.015014] BRK [0x2f80a000, 0x2f80afff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.015041] BRK [0x2f80b000, 0x2f80bfff] PGTABLE
+Jul 28 14:41:04 bob-desktop kernel: [    0.015071] RAMDISK: [mem 0x33091000-0x3583ffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015077] ACPI: Early table checksum verification disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.015079] ACPI: RSDP 0x00000000000F04A0 000024 (v02 ALASKA)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015081] ACPI: XSDT 0x00000000BD314080 000084 (v01 ALASKA A M I    01072009 AMI  00010013)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015086] ACPI: FACP 0x00000000BD325078 00010C (v05 ALASKA A M I    01072009 AMI  00010013)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015089] ACPI: DSDT 0x00000000BD3141A0 010ED6 (v02 ALASKA A M I    00000136 INTL 20120711)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015091] ACPI: FACS 0x00000000BD346F80 000040
+Jul 28 14:41:04 bob-desktop kernel: [    0.015093] ACPI: APIC 0x00000000BD325188 000092 (v03 ALASKA A M I    01072009 AMI  00010013)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015094] ACPI: FPDT 0x00000000BD325220 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015096] ACPI: SSDT 0x00000000BD325268 000539 (v01 PmRef  Cpu0Ist  00003000 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015098] ACPI: SSDT 0x00000000BD3257A8 000B74 (v01 CpuRef CpuSsdt  00003000 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015100] ACPI: SSDT 0x00000000BD326320 0001C7 (v01 PmRef  LakeTiny 00003000 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015101] ACPI: MCFG 0x00000000BD3264E8 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015103] ACPI: HPET 0x00000000BD326528 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015105] ACPI: SSDT 0x00000000BD326560 00036D (v01 SataRe SataTabl 00001000 INTL 20120711)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015106] ACPI: SSDT 0x00000000BD3268D0 005B5E (v01 SaSsdt SaSsdt   00003000 INTL 20120711)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015108] ACPI: AAFT 0x00000000BD32C430 00049F (v01 ALASKA OEMAAFT  01072009 MSFT 00000097)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015110] ACPI: SSDT 0x00000000BD32C8D0 000579 (v01 Intel_ IsctTabl 00001000 INTL 20120711)
+Jul 28 14:41:04 bob-desktop kernel: [    0.015116] ACPI: Local APIC address 0xfee00000
+Jul 28 14:41:04 bob-desktop kernel: [    0.015179] No NUMA configuration found
+Jul 28 14:41:04 bob-desktop kernel: [    0.015180] Faking a node at [mem 0x0000000000000000-0x000000042fdfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015187] NODE_DATA(0) allocated [mem 0x42fdd3000-0x42fdfdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015343] Zone ranges:
+Jul 28 14:41:04 bob-desktop kernel: [    0.015344]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015345]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015345]   Normal   [mem 0x0000000100000000-0x000000042fdfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015346]   Device   empty
+Jul 28 14:41:04 bob-desktop kernel: [    0.015347] Movable zone start for each node
+Jul 28 14:41:04 bob-desktop kernel: [    0.015349] Early memory node ranges
+Jul 28 14:41:04 bob-desktop kernel: [    0.015349]   node   0: [mem 0x0000000000001000-0x000000000009cfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015350]   node   0: [mem 0x0000000000100000-0x00000000a9eaefff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015351]   node   0: [mem 0x00000000a9eb6000-0x00000000aabc9fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015351]   node   0: [mem 0x00000000ab100000-0x00000000bd135fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015351]   node   0: [mem 0x00000000bd1c5000-0x00000000bd20bfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015352]   node   0: [mem 0x00000000bdfff000-0x00000000bdffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015352]   node   0: [mem 0x0000000100000000-0x000000042fdfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015450] Zeroed struct page in unavailable ranges: 13859 pages
+Jul 28 14:41:04 bob-desktop kernel: [    0.015451] Initmem setup node 0 [mem 0x0000000000001000-0x000000042fdfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.015452] On node 0 totalpages: 4114909
+Jul 28 14:41:04 bob-desktop kernel: [    0.015452]   DMA zone: 64 pages used for memmap
+Jul 28 14:41:04 bob-desktop kernel: [    0.015453]   DMA zone: 21 pages reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.015454]   DMA zone: 3996 pages, LIFO batch:0
+Jul 28 14:41:04 bob-desktop kernel: [    0.015488]   DMA32 zone: 12018 pages used for memmap
+Jul 28 14:41:04 bob-desktop kernel: [    0.015488]   DMA32 zone: 769089 pages, LIFO batch:63
+Jul 28 14:41:04 bob-desktop kernel: [    0.022648]   Normal zone: 52216 pages used for memmap
+Jul 28 14:41:04 bob-desktop kernel: [    0.022649]   Normal zone: 3341824 pages, LIFO batch:63
+Jul 28 14:41:04 bob-desktop kernel: [    0.050694] Reserving Intel graphics memory at [mem 0xbf200000-0xcf1fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050761] ACPI: PM-Timer IO Port: 0x1808
+Jul 28 14:41:04 bob-desktop kernel: [    0.050763] ACPI: Local APIC address 0xfee00000
+Jul 28 14:41:04 bob-desktop kernel: [    0.050768] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+Jul 28 14:41:04 bob-desktop kernel: [    0.050777] IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-23
+Jul 28 14:41:04 bob-desktop kernel: [    0.050778] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul 28 14:41:04 bob-desktop kernel: [    0.050779] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jul 28 14:41:04 bob-desktop kernel: [    0.050780] ACPI: IRQ0 used by override.
+Jul 28 14:41:04 bob-desktop kernel: [    0.050780] ACPI: IRQ9 used by override.
+Jul 28 14:41:04 bob-desktop kernel: [    0.050782] Using ACPI (MADT) for SMP configuration information
+Jul 28 14:41:04 bob-desktop kernel: [    0.050783] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Jul 28 14:41:04 bob-desktop kernel: [    0.050786] smpboot: Allowing 8 CPUs, 0 hotplug CPUs
+Jul 28 14:41:04 bob-desktop kernel: [    0.050800] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050801] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050802] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050802] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050802] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050803] PM: Registered nosave memory: [mem 0xa9eaf000-0xa9eb5fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050804] PM: Registered nosave memory: [mem 0xaabca000-0xab0fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050805] PM: Registered nosave memory: [mem 0xbd136000-0xbd1c4fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050806] PM: Registered nosave memory: [mem 0xbd20c000-0xbd346fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050807] PM: Registered nosave memory: [mem 0xbd347000-0xbdffefff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050808] PM: Registered nosave memory: [mem 0xbe000000-0xbeffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050808] PM: Registered nosave memory: [mem 0xbf000000-0xcf1fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050809] PM: Registered nosave memory: [mem 0xcf200000-0xefffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050809] PM: Registered nosave memory: [mem 0xf0000000-0xf7ffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050809] PM: Registered nosave memory: [mem 0xf8000000-0xfebfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050810] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050810] PM: Registered nosave memory: [mem 0xfec01000-0xfecfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050810] PM: Registered nosave memory: [mem 0xfed00000-0xfed03fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050811] PM: Registered nosave memory: [mem 0xfed04000-0xfed1bfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050811] PM: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050811] PM: Registered nosave memory: [mem 0xfed20000-0xfedfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050812] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050812] PM: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050813] PM: Registered nosave memory: [mem 0xff000000-0xffffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.050814] [mem 0xcf200000-0xefffffff] available for PCI devices
+Jul 28 14:41:04 bob-desktop kernel: [    0.050814] Booting paravirtualized kernel on bare hardware
+Jul 28 14:41:04 bob-desktop kernel: [    0.050817] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jul 28 14:41:04 bob-desktop kernel: [    0.050821] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+Jul 28 14:41:04 bob-desktop kernel: [    0.050982] percpu: Embedded 54 pages/cpu s184320 r8192 d28672 u262144
+Jul 28 14:41:04 bob-desktop kernel: [    0.050987] pcpu-alloc: s184320 r8192 d28672 u262144 alloc=1*2097152
+Jul 28 14:41:04 bob-desktop kernel: [    0.050988] pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
+Jul 28 14:41:04 bob-desktop kernel: [    0.051009] Built 1 zonelists, mobility grouping on.  Total pages: 4050590
+Jul 28 14:41:04 bob-desktop kernel: [    0.051009] Policy zone: Normal
+Jul 28 14:41:04 bob-desktop kernel: [    0.051010] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.3.0-62-generic root=UUID=8e784657-5795-4ba5-93cf-0caa93fc3565 ro quiet splash vt.handoff=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.051769] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.052118] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.052171] mem auto-init: stack:off, heap alloc:on, heap free:off
+Jul 28 14:41:04 bob-desktop kernel: [    0.054999] Calgary: detecting Calgary via BIOS EBDA area
+Jul 28 14:41:04 bob-desktop kernel: [    0.055000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jul 28 14:41:04 bob-desktop kernel: [    0.089208] Memory: 16035380K/16459636K available (14339K kernel code, 2369K rwdata, 4672K rodata, 2664K init, 5072K bss, 424256K reserved, 0K cma-reserved)
+Jul 28 14:41:04 bob-desktop kernel: [    0.089213] random: get_random_u64 called from __kmem_cache_create+0x41/0x550 with crng_init=0
+Jul 28 14:41:04 bob-desktop kernel: [    0.089319] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.089328] Kernel/User page tables isolation: enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.089339] ftrace: allocating 43329 entries in 170 pages
+Jul 28 14:41:04 bob-desktop kernel: [    0.101035] rcu: Hierarchical RCU implementation.
+Jul 28 14:41:04 bob-desktop kernel: [    0.101036] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+Jul 28 14:41:04 bob-desktop kernel: [    0.101037] 	Tasks RCU enabled.
+Jul 28 14:41:04 bob-desktop kernel: [    0.101037] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jul 28 14:41:04 bob-desktop kernel: [    0.101038] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+Jul 28 14:41:04 bob-desktop kernel: [    0.103107] NR_IRQS: 524544, nr_irqs: 488, preallocated irqs: 16
+Jul 28 14:41:04 bob-desktop kernel: [    0.103361] random: crng done (trusting CPU's manufacturer)
+Jul 28 14:41:04 bob-desktop kernel: [    0.103377] vt handoff: transparent VT on vt#1
+Jul 28 14:41:04 bob-desktop kernel: [    0.103382] Console: colour dummy device 80x25
+Jul 28 14:41:04 bob-desktop kernel: [    0.103385] printk: console [tty0] enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.103397] ACPI: Core revision 20190703
+Jul 28 14:41:04 bob-desktop kernel: [    0.103490] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+Jul 28 14:41:04 bob-desktop kernel: [    0.103499] APIC: Switch to symmetric I/O mode setup
+Jul 28 14:41:04 bob-desktop kernel: [    0.103563] x2apic: IRQ remapping doesn't support X2APIC mode
+Jul 28 14:41:04 bob-desktop kernel: [    0.103862] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+Jul 28 14:41:04 bob-desktop kernel: [    0.123498] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x33e1722e7d5, max_idle_ns: 440795255730 ns
+Jul 28 14:41:04 bob-desktop kernel: [    0.123501] Calibrating delay loop (skipped), value calculated using timer frequency.. 7198.44 BogoMIPS (lpj=14396880)
+Jul 28 14:41:04 bob-desktop kernel: [    0.123502] pid_max: default: 32768 minimum: 301
+Jul 28 14:41:04 bob-desktop kernel: [    0.123523] LSM: Security Framework initializing
+Jul 28 14:41:04 bob-desktop kernel: [    0.123529] Yama: becoming mindful.
+Jul 28 14:41:04 bob-desktop kernel: [    0.123558] AppArmor: AppArmor initialized
+Jul 28 14:41:04 bob-desktop kernel: [    0.123604] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.123627] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.123734] *** VALIDATE proc ***
+Jul 28 14:41:04 bob-desktop kernel: [    0.123768] *** VALIDATE cgroup1 ***
+Jul 28 14:41:04 bob-desktop kernel: [    0.123769] *** VALIDATE cgroup2 ***
+Jul 28 14:41:04 bob-desktop kernel: [    0.123810] mce: CPU0: Thermal monitoring enabled (TM1)
+Jul 28 14:41:04 bob-desktop kernel: [    0.123820] process: using mwait in idle threads
+Jul 28 14:41:04 bob-desktop kernel: [    0.123822] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Jul 28 14:41:04 bob-desktop kernel: [    0.123823] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Jul 28 14:41:04 bob-desktop kernel: [    0.123824] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jul 28 14:41:04 bob-desktop kernel: [    0.123825] Spectre V2 : Mitigation: Full generic retpoline
+Jul 28 14:41:04 bob-desktop kernel: [    0.123826] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jul 28 14:41:04 bob-desktop kernel: [    0.123826] Spectre V2 : Enabling Restricted Speculation for firmware calls
+Jul 28 14:41:04 bob-desktop kernel: [    0.123827] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jul 28 14:41:04 bob-desktop kernel: [    0.123827] Spectre V2 : User space: Mitigation: STIBP via seccomp and prctl
+Jul 28 14:41:04 bob-desktop kernel: [    0.123828] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Jul 28 14:41:04 bob-desktop kernel: [    0.123830] SRBDS: Mitigation: Microcode
+Jul 28 14:41:04 bob-desktop kernel: [    0.123831] MDS: Mitigation: Clear CPU buffers
+Jul 28 14:41:04 bob-desktop kernel: [    0.123951] Freeing SMP alternatives memory: 40K
+Jul 28 14:41:04 bob-desktop kernel: [    0.127548] smpboot: CPU0: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (family: 0x6, model: 0x3c, stepping: 0x3)
+Jul 28 14:41:04 bob-desktop kernel: [    0.127624] Performance Events: PEBS fmt2+, Haswell events, 16-deep LBR, full-width counters, Intel PMU driver.
+Jul 28 14:41:04 bob-desktop kernel: [    0.127636] ... version:                3
+Jul 28 14:41:04 bob-desktop kernel: [    0.127636] ... bit width:              48
+Jul 28 14:41:04 bob-desktop kernel: [    0.127636] ... generic registers:      4
+Jul 28 14:41:04 bob-desktop kernel: [    0.127637] ... value mask:             0000ffffffffffff
+Jul 28 14:41:04 bob-desktop kernel: [    0.127637] ... max period:             00007fffffffffff
+Jul 28 14:41:04 bob-desktop kernel: [    0.127637] ... fixed-purpose events:   3
+Jul 28 14:41:04 bob-desktop kernel: [    0.127638] ... event mask:             000000070000000f
+Jul 28 14:41:04 bob-desktop kernel: [    0.127660] rcu: Hierarchical SRCU implementation.
+Jul 28 14:41:04 bob-desktop kernel: [    0.128451] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+Jul 28 14:41:04 bob-desktop kernel: [    0.128510] smp: Bringing up secondary CPUs ...
+Jul 28 14:41:04 bob-desktop kernel: [    0.128569] x86: Booting SMP configuration:
+Jul 28 14:41:04 bob-desktop kernel: [    0.128569] .... node  #0, CPUs:      #1 #2 #3 #4
+Jul 28 14:41:04 bob-desktop kernel: [    0.132981] MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jul 28 14:41:04 bob-desktop kernel: [    0.132981]  #5 #6 #7
+Jul 28 14:41:04 bob-desktop kernel: [    0.132981] smp: Brought up 1 node, 8 CPUs
+Jul 28 14:41:04 bob-desktop kernel: [    0.132981] smpboot: Max logical packages: 1
+Jul 28 14:41:04 bob-desktop kernel: [    0.132981] smpboot: Total of 8 processors activated (57587.52 BogoMIPS)
+Jul 28 14:41:04 bob-desktop kernel: [    0.135893] devtmpfs: initialized
+Jul 28 14:41:04 bob-desktop kernel: [    0.135893] x86/mm: Memory block size: 128MB
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PM: Registering ACPI NVS region [mem 0xa9eaf000-0xa9eb5fff] (28672 bytes)
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PM: Registering ACPI NVS region [mem 0xbd20c000-0xbd346fff] (1290240 bytes)
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] pinctrl core: initialized pinctrl subsystem
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PM: RTC time: 21:41:01, date: 2020-07-28
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] NET: Registered protocol family 16
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] audit: initializing netlink subsys (disabled)
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] audit: type=2000 audit(1595972461.032:1): state=initialized audit_enabled=0 res=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] EISA bus registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] cpuidle: using governor ladder
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] cpuidle: using governor menu
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] ACPI: bus type PCI registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xf0000000-0xf7ffffff] (base 0xf0000000)
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PCI: MMCONFIG at [mem 0xf0000000-0xf7ffffff] reserved in E820
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] PCI: Using configuration type 1 for base access
+Jul 28 14:41:04 bob-desktop kernel: [    0.136574] core: PMU erratum BJ122, BV98, HSD29 worked around, HT is on
+Jul 28 14:41:04 bob-desktop kernel: [    0.137081] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Jul 28 14:41:04 bob-desktop kernel: [    0.137081] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jul 28 14:41:04 bob-desktop kernel: [    0.139559] ACPI: Added _OSI(Module Device)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139559] ACPI: Added _OSI(Processor Device)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139560] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139560] ACPI: Added _OSI(Processor Aggregator Device)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139561] ACPI: Added _OSI(Linux-Dell-Video)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139563] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jul 28 14:41:04 bob-desktop kernel: [    0.139563] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jul 28 14:41:04 bob-desktop kernel: [    0.154291] ACPI: 7 ACPI AML tables successfully acquired and loaded
+Jul 28 14:41:04 bob-desktop kernel: [    0.156663] ACPI: Dynamic OEM Table Load:
+Jul 28 14:41:04 bob-desktop kernel: [    0.156666] ACPI: SSDT 0xFFFF90831D4D6800 0003D3 (v01 PmRef  Cpu0Cst  00003001 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.157614] ACPI: Dynamic OEM Table Load:
+Jul 28 14:41:04 bob-desktop kernel: [    0.157617] ACPI: SSDT 0xFFFF90831D4CF000 0005AA (v01 PmRef  ApIst    00003000 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.158604] ACPI: Dynamic OEM Table Load:
+Jul 28 14:41:04 bob-desktop kernel: [    0.158606] ACPI: SSDT 0xFFFF90831D508C00 000119 (v01 PmRef  ApCst    00003000 INTL 20051117)
+Jul 28 14:41:04 bob-desktop kernel: [    0.161694] ACPI: Interpreter enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.161719] ACPI: (supports S0 S3 S4 S5)
+Jul 28 14:41:04 bob-desktop kernel: [    0.161720] ACPI: Using IOAPIC for interrupt routing
+Jul 28 14:41:04 bob-desktop kernel: [    0.161779] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul 28 14:41:04 bob-desktop kernel: [    0.162413] ACPI: Enabled 11 GPEs in block 00 to 3F
+Jul 28 14:41:04 bob-desktop kernel: [    0.163005] ACPI: Power Resource [PG00] (on)
+Jul 28 14:41:04 bob-desktop kernel: [    0.163378] ACPI: Power Resource [PG01] (on)
+Jul 28 14:41:04 bob-desktop kernel: [    0.163751] ACPI: Power Resource [PG02] (on)
+Jul 28 14:41:04 bob-desktop kernel: [    0.175132] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7e])
+Jul 28 14:41:04 bob-desktop kernel: [    0.175136] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175373] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME LTR]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175537] acpi PNP0A08:00: _OSC: OS now controls [AER PCIeCapability]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175537] acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+Jul 28 14:41:04 bob-desktop kernel: [    0.175942] PCI host bridge to bus 0000:00
+Jul 28 14:41:04 bob-desktop kernel: [    0.175943] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175944] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175945] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175945] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175946] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175946] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175947] pci_bus 0000:00: root bus resource [mem 0x000dc000-0x000dffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175948] pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000e3fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175948] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000e7fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175949] pci_bus 0000:00: root bus resource [mem 0xcf200000-0xfeafffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175950] pci_bus 0000:00: root bus resource [bus 00-7e]
+Jul 28 14:41:04 bob-desktop kernel: [    0.175956] pci 0000:00:00.0: [8086:0c00] type 00 class 0x060000
+Jul 28 14:41:04 bob-desktop kernel: [    0.176034] pci 0000:00:02.0: [8086:0412] type 00 class 0x030000
+Jul 28 14:41:04 bob-desktop kernel: [    0.176042] pci 0000:00:02.0: reg 0x10: [mem 0xef400000-0xef7fffff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176046] pci 0000:00:02.0: reg 0x18: [mem 0xd0000000-0xdfffffff 64bit pref]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176049] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176120] pci 0000:00:03.0: [8086:0c0c] type 00 class 0x040300
+Jul 28 14:41:04 bob-desktop kernel: [    0.176126] pci 0000:00:03.0: reg 0x10: [mem 0xefc34000-0xefc37fff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176217] pci 0000:00:14.0: [8086:8cb1] type 00 class 0x0c0330
+Jul 28 14:41:04 bob-desktop kernel: [    0.176233] pci 0000:00:14.0: reg 0x10: [mem 0xefc20000-0xefc2ffff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176283] pci 0000:00:14.0: PME# supported from D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.176348] pci 0000:00:16.0: [8086:8cba] type 00 class 0x078000
+Jul 28 14:41:04 bob-desktop kernel: [    0.176366] pci 0000:00:16.0: reg 0x10: [mem 0xefc3e000-0xefc3e00f 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176418] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.176505] pci 0000:00:19.0: [8086:15a1] type 00 class 0x020000
+Jul 28 14:41:04 bob-desktop kernel: [    0.176520] pci 0000:00:19.0: reg 0x10: [mem 0xefc00000-0xefc1ffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176526] pci 0000:00:19.0: reg 0x14: [mem 0xefc3c000-0xefc3cfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176532] pci 0000:00:19.0: reg 0x18: [io  0xf080-0xf09f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176580] pci 0000:00:19.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.176648] pci 0000:00:1a.0: [8086:8cad] type 00 class 0x0c0320
+Jul 28 14:41:04 bob-desktop kernel: [    0.176666] pci 0000:00:1a.0: reg 0x10: [mem 0xefc3b000-0xefc3b3ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176735] pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.176804] pci 0000:00:1b.0: [8086:8ca0] type 00 class 0x040300
+Jul 28 14:41:04 bob-desktop kernel: [    0.176820] pci 0000:00:1b.0: reg 0x10: [mem 0xefc30000-0xefc33fff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.176878] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.176943] pci 0000:00:1c.0: [8086:8c90] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.177008] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.177119] pci 0000:00:1c.2: [8086:8c94] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.177186] pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.177292] pci 0000:00:1c.3: [8086:8c96] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.177358] pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.177467] pci 0000:00:1c.6: [8086:8c9c] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.177534] pci 0000:00:1c.6: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.177642] pci 0000:00:1d.0: [8086:8ca6] type 00 class 0x0c0320
+Jul 28 14:41:04 bob-desktop kernel: [    0.177660] pci 0000:00:1d.0: reg 0x10: [mem 0xefc3a000-0xefc3a3ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177731] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.177802] pci 0000:00:1f.0: [8086:8cc4] type 00 class 0x060100
+Jul 28 14:41:04 bob-desktop kernel: [    0.177954] pci 0000:00:1f.2: [8086:8c82] type 00 class 0x010601
+Jul 28 14:41:04 bob-desktop kernel: [    0.177966] pci 0000:00:1f.2: reg 0x10: [io  0xf0d0-0xf0d7]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177972] pci 0000:00:1f.2: reg 0x14: [io  0xf0c0-0xf0c3]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177977] pci 0000:00:1f.2: reg 0x18: [io  0xf0b0-0xf0b7]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177982] pci 0000:00:1f.2: reg 0x1c: [io  0xf0a0-0xf0a3]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177987] pci 0000:00:1f.2: reg 0x20: [io  0xf060-0xf07f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.177992] pci 0000:00:1f.2: reg 0x24: [mem 0xefc39000-0xefc397ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178021] pci 0000:00:1f.2: PME# supported from D3hot
+Jul 28 14:41:04 bob-desktop kernel: [    0.178083] pci 0000:00:1f.3: [8086:8ca2] type 00 class 0x0c0500
+Jul 28 14:41:04 bob-desktop kernel: [    0.178097] pci 0000:00:1f.3: reg 0x10: [mem 0xefc38000-0xefc380ff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178113] pci 0000:00:1f.3: reg 0x20: [io  0xf040-0xf05f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178243] acpiphp: Slot [1] registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.178247] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178320] pci 0000:02:00.0: [10ec:8168] type 00 class 0x020000
+Jul 28 14:41:04 bob-desktop kernel: [    0.178347] pci 0000:02:00.0: reg 0x10: [io  0xe000-0xe0ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178372] pci 0000:02:00.0: reg 0x18: [mem 0xefb00000-0xefb00fff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178388] pci 0000:02:00.0: reg 0x20: [mem 0xe0000000-0xe0003fff 64bit pref]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178485] pci 0000:02:00.0: supports D1 D2
+Jul 28 14:41:04 bob-desktop kernel: [    0.178485] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.178604] pci 0000:00:1c.2: PCI bridge to [bus 02]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178606] pci 0000:00:1c.2:   bridge window [io  0xe000-0xefff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178608] pci 0000:00:1c.2:   bridge window [mem 0xefb00000-0xefbfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178612] pci 0000:00:1c.2:   bridge window [mem 0xe0000000-0xe00fffff 64bit pref]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178686] pci 0000:03:00.0: [1b21:1184] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.178746] pci 0000:03:00.0: enabling Extended Tags
+Jul 28 14:41:04 bob-desktop kernel: [    0.178809] pci 0000:03:00.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.178891] pci 0000:00:1c.3: PCI bridge to [bus 03-08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178893] pci 0000:00:1c.3:   bridge window [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178895] pci 0000:00:1c.3:   bridge window [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.178969] pci 0000:04:01.0: [1b21:1184] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.179029] pci 0000:04:01.0: enabling Extended Tags
+Jul 28 14:41:04 bob-desktop kernel: [    0.179090] pci 0000:04:01.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.179159] pci 0000:04:03.0: [1b21:1184] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.179218] pci 0000:04:03.0: enabling Extended Tags
+Jul 28 14:41:04 bob-desktop kernel: [    0.179279] pci 0000:04:03.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.179346] pci 0000:04:05.0: [1b21:1184] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.179405] pci 0000:04:05.0: enabling Extended Tags
+Jul 28 14:41:04 bob-desktop kernel: [    0.179467] pci 0000:04:05.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.179534] pci 0000:04:07.0: [1b21:1184] type 01 class 0x060400
+Jul 28 14:41:04 bob-desktop kernel: [    0.179593] pci 0000:04:07.0: enabling Extended Tags
+Jul 28 14:41:04 bob-desktop kernel: [    0.179655] pci 0000:04:07.0: PME# supported from D0 D3hot D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.179737] pci 0000:03:00.0: PCI bridge to [bus 04-08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179742] pci 0000:03:00.0:   bridge window [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179745] pci 0000:03:00.0:   bridge window [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179785] pci 0000:04:01.0: PCI bridge to [bus 05]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179849] pci 0000:06:00.0: [1b21:0612] type 00 class 0x010601
+Jul 28 14:41:04 bob-desktop kernel: [    0.179879] pci 0000:06:00.0: reg 0x10: [io  0xd050-0xd057]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179892] pci 0000:06:00.0: reg 0x14: [io  0xd040-0xd043]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179905] pci 0000:06:00.0: reg 0x18: [io  0xd030-0xd037]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179918] pci 0000:06:00.0: reg 0x1c: [io  0xd020-0xd023]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179931] pci 0000:06:00.0: reg 0x20: [io  0xd000-0xd01f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.179945] pci 0000:06:00.0: reg 0x24: [mem 0xef900000-0xef9001ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180121] pci 0000:04:03.0: PCI bridge to [bus 06]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180126] pci 0000:04:03.0:   bridge window [io  0xd000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180129] pci 0000:04:03.0:   bridge window [mem 0xef900000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180170] pci 0000:04:05.0: PCI bridge to [bus 07]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180234] pci 0000:08:00.0: [1b21:0612] type 00 class 0x010601
+Jul 28 14:41:04 bob-desktop kernel: [    0.180264] pci 0000:08:00.0: reg 0x10: [io  0xc050-0xc057]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180277] pci 0000:08:00.0: reg 0x14: [io  0xc040-0xc043]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180290] pci 0000:08:00.0: reg 0x18: [io  0xc030-0xc037]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180303] pci 0000:08:00.0: reg 0x1c: [io  0xc020-0xc023]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180316] pci 0000:08:00.0: reg 0x20: [io  0xc000-0xc01f]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180329] pci 0000:08:00.0: reg 0x24: [mem 0xef800000-0xef8001ff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180504] pci 0000:04:07.0: PCI bridge to [bus 08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180509] pci 0000:04:07.0:   bridge window [io  0xc000-0xcfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180512] pci 0000:04:07.0:   bridge window [mem 0xef800000-0xef8fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180617] pci 0000:09:00.0: [1b21:1142] type 00 class 0x0c0330
+Jul 28 14:41:04 bob-desktop kernel: [    0.180648] pci 0000:09:00.0: reg 0x10: [mem 0xefa00000-0xefa07fff 64bit]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180774] pci 0000:09:00.0: PME# supported from D3cold
+Jul 28 14:41:04 bob-desktop kernel: [    0.180869] pci 0000:00:1c.6: PCI bridge to [bus 09]
+Jul 28 14:41:04 bob-desktop kernel: [    0.180873] pci 0000:00:1c.6:   bridge window [mem 0xefa00000-0xefafffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.181610] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.181659] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+Jul 28 14:41:04 bob-desktop kernel: [    0.181706] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.181753] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *10 11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.181800] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 *5 6 10 11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.181846] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+Jul 28 14:41:04 bob-desktop kernel: [    0.181893] ACPI: PCI Interrupt Link [LNKG] (IRQs *3 4 5 6 10 11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.181940] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 *10 11 12 14 15)
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] SCSI subsystem initialized
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] libata version 3.00 loaded.
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] pci 0000:00:02.0: vgaarb: bridge control possible
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] vgaarb: loaded
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] ACPI: bus type USB registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] usbcore: registered new interface driver usbfs
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] usbcore: registered new interface driver hub
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] usbcore: registered new device driver usb
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] pps_core: LinuxPPS API ver. 1 registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] PTP clock support registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] EDAC MC: Ver: 3.0.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] PCI: Using ACPI for IRQ routing
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] PCI: pci_cache_line_size set to 64 bytes
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0x0009d800-0x0009ffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0xa9eaf000-0xabffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0xaabca000-0xabffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0xbd136000-0xbfffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0xbd20c000-0xbfffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0xbe000000-0xbfffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.182104] e820: reserve RAM buffer [mem 0x42fe00000-0x42fffffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.183502] NetLabel: Initializing
+Jul 28 14:41:04 bob-desktop kernel: [    0.183502] NetLabel:  domain hash size = 128
+Jul 28 14:41:04 bob-desktop kernel: [    0.183502] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jul 28 14:41:04 bob-desktop kernel: [    0.183502] NetLabel:  unlabeled traffic allowed by default
+Jul 28 14:41:04 bob-desktop kernel: [    0.183853] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+Jul 28 14:41:04 bob-desktop kernel: [    0.183855] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+Jul 28 14:41:04 bob-desktop kernel: [    0.185872] clocksource: Switched to clocksource tsc-early
+Jul 28 14:41:04 bob-desktop kernel: [    0.191874] VFS: Disk quotas dquot_6.6.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.191885] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 28 14:41:04 bob-desktop kernel: [    0.191903] *** VALIDATE hugetlbfs ***
+Jul 28 14:41:04 bob-desktop kernel: [    0.191960] AppArmor: AppArmor Filesystem Enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.191979] pnp: PnP ACPI init
+Jul 28 14:41:04 bob-desktop kernel: [    0.192091] system 00:00: [mem 0xfed40000-0xfed44fff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192095] system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192177] system 00:01: [io  0x0800-0x087f] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192179] system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192193] pnp 00:02: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192223] system 00:03: [io  0x1854-0x1857] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192225] system 00:03: Plug and Play ACPI device, IDs INT3f0d PNP0c02 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192301] system 00:04: [io  0x0290-0x029f] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192303] system 00:04: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192345] system 00:05: [io  0x04d0-0x04d1] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192347] system 00:05: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192491] pnp 00:06: [dma 0 disabled]
+Jul 28 14:41:04 bob-desktop kernel: [    0.192519] pnp 00:06: Plug and Play ACPI device, IDs PNP0501 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.192946] system 00:07: [mem 0xfed1c000-0xfed1ffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192947] system 00:07: [mem 0xfed10000-0xfed17fff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192947] system 00:07: [mem 0xfed18000-0xfed18fff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192948] system 00:07: [mem 0xfed19000-0xfed19fff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192949] system 00:07: [mem 0xf0000000-0xf7ffffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192950] system 00:07: [mem 0xfed20000-0xfed3ffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192951] system 00:07: [mem 0xfed90000-0xfed93fff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192951] system 00:07: [mem 0xfed45000-0xfed8ffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192952] system 00:07: [mem 0xff000000-0xffffffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192953] system 00:07: [mem 0xfee00000-0xfeefffff] could not be reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192954] system 00:07: [mem 0xeffe0000-0xeffeffff] has been reserved
+Jul 28 14:41:04 bob-desktop kernel: [    0.192956] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 28 14:41:04 bob-desktop kernel: [    0.193126] pnp: PnP ACPI: found 8 devices
+Jul 28 14:41:04 bob-desktop kernel: [    0.193906] thermal_sys: Registered thermal governor 'fair_share'
+Jul 28 14:41:04 bob-desktop kernel: [    0.193906] thermal_sys: Registered thermal governor 'bang_bang'
+Jul 28 14:41:04 bob-desktop kernel: [    0.193907] thermal_sys: Registered thermal governor 'step_wise'
+Jul 28 14:41:04 bob-desktop kernel: [    0.193907] thermal_sys: Registered thermal governor 'user_space'
+Jul 28 14:41:04 bob-desktop kernel: [    0.193908] thermal_sys: Registered thermal governor 'power_allocator'
+Jul 28 14:41:04 bob-desktop kernel: [    0.198392] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jul 28 14:41:04 bob-desktop kernel: [    0.198417] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198425] pci 0000:00:1c.2: PCI bridge to [bus 02]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198427] pci 0000:00:1c.2:   bridge window [io  0xe000-0xefff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198430] pci 0000:00:1c.2:   bridge window [mem 0xefb00000-0xefbfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198432] pci 0000:00:1c.2:   bridge window [mem 0xe0000000-0xe00fffff 64bit pref]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198436] pci 0000:04:01.0: PCI bridge to [bus 05]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198448] pci 0000:04:03.0: PCI bridge to [bus 06]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198450] pci 0000:04:03.0:   bridge window [io  0xd000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198454] pci 0000:04:03.0:   bridge window [mem 0xef900000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198462] pci 0000:04:05.0: PCI bridge to [bus 07]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198474] pci 0000:04:07.0: PCI bridge to [bus 08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198476] pci 0000:04:07.0:   bridge window [io  0xc000-0xcfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198480] pci 0000:04:07.0:   bridge window [mem 0xef800000-0xef8fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198488] pci 0000:03:00.0: PCI bridge to [bus 04-08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198490] pci 0000:03:00.0:   bridge window [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198494] pci 0000:03:00.0:   bridge window [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198502] pci 0000:00:1c.3: PCI bridge to [bus 03-08]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198503] pci 0000:00:1c.3:   bridge window [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198506] pci 0000:00:1c.3:   bridge window [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198511] pci 0000:00:1c.6: PCI bridge to [bus 09]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198514] pci 0000:00:1c.6:   bridge window [mem 0xefa00000-0xefafffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198519] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198520] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198521] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198521] pci_bus 0000:00: resource 7 [mem 0x000d0000-0x000d3fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198522] pci_bus 0000:00: resource 8 [mem 0x000d4000-0x000d7fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198523] pci_bus 0000:00: resource 9 [mem 0x000d8000-0x000dbfff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198523] pci_bus 0000:00: resource 10 [mem 0x000dc000-0x000dffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198524] pci_bus 0000:00: resource 11 [mem 0x000e0000-0x000e3fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198525] pci_bus 0000:00: resource 12 [mem 0x000e4000-0x000e7fff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198525] pci_bus 0000:00: resource 13 [mem 0xcf200000-0xfeafffff window]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198526] pci_bus 0000:02: resource 0 [io  0xe000-0xefff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198527] pci_bus 0000:02: resource 1 [mem 0xefb00000-0xefbfffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198528] pci_bus 0000:02: resource 2 [mem 0xe0000000-0xe00fffff 64bit pref]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198528] pci_bus 0000:03: resource 0 [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198529] pci_bus 0000:03: resource 1 [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198530] pci_bus 0000:04: resource 0 [io  0xc000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198530] pci_bus 0000:04: resource 1 [mem 0xef800000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198531] pci_bus 0000:06: resource 0 [io  0xd000-0xdfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198532] pci_bus 0000:06: resource 1 [mem 0xef900000-0xef9fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198532] pci_bus 0000:08: resource 0 [io  0xc000-0xcfff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198533] pci_bus 0000:08: resource 1 [mem 0xef800000-0xef8fffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198534] pci_bus 0000:09: resource 1 [mem 0xefa00000-0xefafffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.198647] NET: Registered protocol family 2
+Jul 28 14:41:04 bob-desktop kernel: [    0.198742] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.198802] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.198946] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.199038] TCP: Hash tables configured (established 131072 bind 65536)
+Jul 28 14:41:04 bob-desktop kernel: [    0.199071] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.199102] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+Jul 28 14:41:04 bob-desktop kernel: [    0.199166] NET: Registered protocol family 1
+Jul 28 14:41:04 bob-desktop kernel: [    0.199170] NET: Registered protocol family 44
+Jul 28 14:41:04 bob-desktop kernel: [    0.199176] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jul 28 14:41:04 bob-desktop kernel: [    0.223580] pci 0000:00:1a.0: quirk_usb_early_handoff+0x0/0x6a0 took 23686 usecs
+Jul 28 14:41:04 bob-desktop kernel: [    0.247575] pci 0000:00:1d.0: quirk_usb_early_handoff+0x0/0x6a0 took 23421 usecs
+Jul 28 14:41:04 bob-desktop kernel: [    0.247718] PCI: CLS 64 bytes, default 64
+Jul 28 14:41:04 bob-desktop kernel: [    0.247744] Trying to unpack rootfs image as initramfs...
+Jul 28 14:41:04 bob-desktop kernel: [    0.628352] Freeing initrd memory: 40636K
+Jul 28 14:41:04 bob-desktop kernel: [    0.628355] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jul 28 14:41:04 bob-desktop kernel: [    0.628356] software IO TLB: mapped [mem 0xb9136000-0xbd136000] (64MB)
+Jul 28 14:41:04 bob-desktop kernel: [    0.628574] check: Scanning for low memory corruption every 60 seconds
+Jul 28 14:41:04 bob-desktop kernel: [    0.629520] Initialise system trusted keyrings
+Jul 28 14:41:04 bob-desktop kernel: [    0.629528] Key type blacklist registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.629546] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+Jul 28 14:41:04 bob-desktop kernel: [    0.630417] zbud: loaded
+Jul 28 14:41:04 bob-desktop kernel: [    0.630659] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul 28 14:41:04 bob-desktop kernel: [    0.630757] fuse: init (API version 7.31)
+Jul 28 14:41:04 bob-desktop kernel: [    0.630827] Platform Keyring initialized
+Jul 28 14:41:04 bob-desktop kernel: [    0.634162] Key type asymmetric registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.634163] Asymmetric key parser 'x509' registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.634168] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+Jul 28 14:41:04 bob-desktop kernel: [    0.634193] io scheduler mq-deadline registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.635372] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jul 28 14:41:04 bob-desktop kernel: [    0.635412] vesafb: mode is 1680x1050x32, linelength=6720, pages=0
+Jul 28 14:41:04 bob-desktop kernel: [    0.635413] vesafb: scrolling: redraw
+Jul 28 14:41:04 bob-desktop kernel: [    0.635414] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Jul 28 14:41:04 bob-desktop kernel: [    0.635422] vesafb: framebuffer at 0xd0000000, mapped to 0x000000008b03bbeb, using 6912k, total 6912k
+Jul 28 14:41:04 bob-desktop kernel: [    0.635449] fbcon: Deferring console take-over
+Jul 28 14:41:04 bob-desktop kernel: [    0.635450] fb0: VESA VGA frame buffer device
+Jul 28 14:41:04 bob-desktop kernel: [    0.635457] intel_idle: MWAIT substates: 0x42120
+Jul 28 14:41:04 bob-desktop kernel: [    0.635458] intel_idle: v0.4.1 model 0x3C
+Jul 28 14:41:04 bob-desktop kernel: [    0.635683] intel_idle: lapic_timer_reliable_states 0xffffffff
+Jul 28 14:41:04 bob-desktop kernel: [    0.635813] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Jul 28 14:41:04 bob-desktop kernel: [    0.635819] ACPI: Power Button [PWRB]
+Jul 28 14:41:04 bob-desktop kernel: [    0.635840] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1
+Jul 28 14:41:04 bob-desktop kernel: [    0.635844] ACPI: Sleep Button [SLPB]
+Jul 28 14:41:04 bob-desktop kernel: [    0.635860] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Jul 28 14:41:04 bob-desktop kernel: [    0.635869] ACPI: Power Button [PWRF]
+Jul 28 14:41:04 bob-desktop kernel: [    0.636214] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.656619] 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jul 28 14:41:04 bob-desktop kernel: [    0.657683] Linux agpgart interface v0.103
+Jul 28 14:41:04 bob-desktop kernel: [    0.659207] loop: module loaded
+Jul 28 14:41:04 bob-desktop kernel: [    0.659335] libphy: Fixed MDIO Bus: probed
+Jul 28 14:41:04 bob-desktop kernel: [    0.659336] tun: Universal TUN/TAP device driver, 1.6
+Jul 28 14:41:04 bob-desktop kernel: [    0.659351] PPP generic driver version 2.4.2
+Jul 28 14:41:04 bob-desktop kernel: [    0.659372] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.659373] ehci-pci: EHCI PCI platform driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.659453] ehci-pci 0000:00:1a.0: EHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.659459] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+Jul 28 14:41:04 bob-desktop kernel: [    0.659467] ehci-pci 0000:00:1a.0: debug port 2
+Jul 28 14:41:04 bob-desktop kernel: [    0.663367] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+Jul 28 14:41:04 bob-desktop kernel: [    0.663375] ehci-pci 0000:00:1a.0: irq 16, io mem 0xefc3b000
+Jul 28 14:41:04 bob-desktop kernel: [    0.675541] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+Jul 28 14:41:04 bob-desktop kernel: [    0.675567] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.675568] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.675568] usb usb1: Product: EHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.675569] usb usb1: Manufacturer: Linux 5.3.0-62-generic ehci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.675570] usb usb1: SerialNumber: 0000:00:1a.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.675719] hub 1-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.675722] hub 1-0:1.0: 2 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.675887] ehci-pci 0000:00:1d.0: EHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.675890] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+Jul 28 14:41:04 bob-desktop kernel: [    0.675897] ehci-pci 0000:00:1d.0: debug port 2
+Jul 28 14:41:04 bob-desktop kernel: [    0.679783] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+Jul 28 14:41:04 bob-desktop kernel: [    0.679788] ehci-pci 0000:00:1d.0: irq 23, io mem 0xefc3a000
+Jul 28 14:41:04 bob-desktop kernel: [    0.695539] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+Jul 28 14:41:04 bob-desktop kernel: [    0.695563] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.695564] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.695564] usb usb2: Product: EHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.695565] usb usb2: Manufacturer: Linux 5.3.0-62-generic ehci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.695566] usb usb2: SerialNumber: 0000:00:1d.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.695703] hub 2-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.695706] hub 2-0:1.0: 2 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.695797] ehci-platform: EHCI generic platform driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.695802] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.695804] ohci-pci: OHCI PCI platform driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.695809] ohci-platform: OHCI generic platform driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.695813] uhci_hcd: USB Universal Host Controller Interface driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.695890] xhci_hcd 0000:00:14.0: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.695893] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+Jul 28 14:41:04 bob-desktop kernel: [    0.696932] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000000009810
+Jul 28 14:41:04 bob-desktop kernel: [    0.696935] xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+Jul 28 14:41:04 bob-desktop kernel: [    0.697037] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.697038] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.697039] usb usb3: Product: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.697039] usb usb3: Manufacturer: Linux 5.3.0-62-generic xhci-hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.697040] usb usb3: SerialNumber: 0000:00:14.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.697176] hub 3-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.697191] hub 3-0:1.0: 14 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.699573] xhci_hcd 0000:00:14.0: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.699575] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+Jul 28 14:41:04 bob-desktop kernel: [    0.699577] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+Jul 28 14:41:04 bob-desktop kernel: [    0.699600] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.699600] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.699601] usb usb4: Product: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.699602] usb usb4: Manufacturer: Linux 5.3.0-62-generic xhci-hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.699602] usb usb4: SerialNumber: 0000:00:14.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.699737] hub 4-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.699747] hub 4-0:1.0: 6 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.700998] xhci_hcd 0000:09:00.0: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.701001] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 5
+Jul 28 14:41:04 bob-desktop kernel: [    0.761552] xhci_hcd 0000:09:00.0: hcc params 0x0200e081 hci version 0x100 quirks 0x0000000010000410
+Jul 28 14:41:04 bob-desktop kernel: [    0.761740] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.761740] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.761741] usb usb5: Product: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.761742] usb usb5: Manufacturer: Linux 5.3.0-62-generic xhci-hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.761742] usb usb5: SerialNumber: 0000:09:00.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.761874] hub 5-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.761880] hub 5-0:1.0: 2 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.761948] xhci_hcd 0000:09:00.0: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.761949] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 6
+Jul 28 14:41:04 bob-desktop rsyslogd: rsyslogd's groupid changed to 106
+Jul 28 14:41:04 bob-desktop kernel: [    0.761951] xhci_hcd 0000:09:00.0: Host supports USB 3.0 SuperSpeed
+Jul 28 14:41:04 bob-desktop kernel: [    0.761994] usb usb6: We don't know the algorithms for LPM for this host, disabling LPM.
+Jul 28 14:41:04 bob-desktop kernel: [    0.762005] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.03
+Jul 28 14:41:04 bob-desktop kernel: [    0.762006] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 28 14:41:04 bob-desktop kernel: [    0.762006] usb usb6: Product: xHCI Host Controller
+Jul 28 14:41:04 bob-desktop kernel: [    0.762007] usb usb6: Manufacturer: Linux 5.3.0-62-generic xhci-hcd
+Jul 28 14:41:04 bob-desktop kernel: [    0.762008] usb usb6: SerialNumber: 0000:09:00.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.762138] hub 6-0:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    0.762144] hub 6-0:1.0: 2 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    0.762214] i8042: PNP: No PS/2 controller found.
+Jul 28 14:41:04 bob-desktop kernel: [    0.762341] mousedev: PS/2 mouse device common for all mice
+Jul 28 14:41:04 bob-desktop kernel: [    0.762478] rtc_cmos 00:02: RTC can wake from S4
+Jul 28 14:41:04 bob-desktop kernel: [    0.762611] rtc_cmos 00:02: registered as rtc0
+Jul 28 14:41:04 bob-desktop kernel: [    0.762620] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+Jul 28 14:41:04 bob-desktop kernel: [    0.762624] i2c /dev entries driver
+Jul 28 14:41:04 bob-desktop kernel: [    0.762646] device-mapper: uevent: version 1.0.3
+Jul 28 14:41:04 bob-desktop kernel: [    0.762696] device-mapper: ioctl: 4.40.0-ioctl (2019-01-18) initialised: dm-devel@redhat.com
+Jul 28 14:41:04 bob-desktop kernel: [    0.762709] platform eisa.0: Probing EISA bus 0
+Jul 28 14:41:04 bob-desktop kernel: [    0.762710] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Jul 28 14:41:04 bob-desktop kernel: [    0.762711] platform eisa.0: Cannot allocate resource for EISA slot 1
+Jul 28 14:41:04 bob-desktop kernel: [    0.762711] platform eisa.0: Cannot allocate resource for EISA slot 2
+Jul 28 14:41:04 bob-desktop kernel: [    0.762712] platform eisa.0: Cannot allocate resource for EISA slot 3
+Jul 28 14:41:04 bob-desktop kernel: [    0.762713] platform eisa.0: Cannot allocate resource for EISA slot 4
+Jul 28 14:41:04 bob-desktop kernel: [    0.762713] platform eisa.0: Cannot allocate resource for EISA slot 5
+Jul 28 14:41:04 bob-desktop kernel: [    0.762714] platform eisa.0: Cannot allocate resource for EISA slot 6
+Jul 28 14:41:04 bob-desktop kernel: [    0.762714] platform eisa.0: Cannot allocate resource for EISA slot 7
+Jul 28 14:41:04 bob-desktop kernel: [    0.762715] platform eisa.0: Cannot allocate resource for EISA slot 8
+Jul 28 14:41:04 bob-desktop kernel: [    0.762716] platform eisa.0: EISA: Detected 0 cards
+Jul 28 14:41:04 bob-desktop kernel: [    0.762720] intel_pstate: Intel P-state driver initializing
+Jul 28 14:41:04 bob-desktop kernel: [    0.763225] ledtrig-cpu: registered to indicate activity on CPUs
+Jul 28 14:41:04 bob-desktop kernel: [    0.763408] NET: Registered protocol family 10
+Jul 28 14:41:04 bob-desktop kernel: [    0.766697] Segment Routing with IPv6
+Jul 28 14:41:04 bob-desktop kernel: [    0.766711] NET: Registered protocol family 17
+Jul 28 14:41:04 bob-desktop kernel: [    0.766764] Key type dns_resolver registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.767167] RAS: Correctable Errors collector initialized.
+Jul 28 14:41:04 bob-desktop kernel: [    0.767199] microcode: sig=0x306c3, pf=0x2, revision=0x28
+Jul 28 14:41:04 bob-desktop kernel: [    0.767308] microcode: Microcode Update Driver: v2.2.
+Jul 28 14:41:04 bob-desktop kernel: [    0.767314] sched_clock: Marking stable (767083117, 223236)->(779882408, -12576055)
+Jul 28 14:41:04 bob-desktop kernel: [    0.767397] registered taskstats version 1
+Jul 28 14:41:04 bob-desktop kernel: [    0.767402] Loading compiled-in X.509 certificates
+Jul 28 14:41:04 bob-desktop rsyslogd: rsyslogd's userid changed to 102
+Jul 28 14:41:04 bob-desktop rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="666" x-info="http://www.rsyslog.com"] start
+Jul 28 14:41:04 bob-desktop kernel: [    0.768442] Loaded X.509 cert 'Build time autogenerated kernel key: 5b6b7609e44461836628aa165e1ec77cc1a3cfd6'
+Jul 28 14:41:04 bob-desktop kernel: [    0.768463] zswap: loaded using pool lzo/zbud
+Jul 28 14:41:04 bob-desktop kernel: [    0.771599] Key type big_key registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.773213] Key type encrypted registered
+Jul 28 14:41:04 bob-desktop kernel: [    0.773216] AppArmor: AppArmor sha1 policy hashing enabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.773229] ima: No TPM chip found, activating TPM-bypass!
+Jul 28 14:41:04 bob-desktop kernel: [    0.773233] ima: Allocated hash algorithm: sha1
+Jul 28 14:41:04 bob-desktop kernel: [    0.773237] No architecture policies found
+Jul 28 14:41:04 bob-desktop kernel: [    0.773241] evm: Initialising EVM extended attributes:
+Jul 28 14:41:04 bob-desktop kernel: [    0.773242] evm: security.selinux
+Jul 28 14:41:04 bob-desktop kernel: [    0.773242] evm: security.SMACK64
+Jul 28 14:41:04 bob-desktop kernel: [    0.773242] evm: security.SMACK64EXEC
+Jul 28 14:41:04 bob-desktop kernel: [    0.773242] evm: security.SMACK64TRANSMUTE
+Jul 28 14:41:04 bob-desktop kernel: [    0.773243] evm: security.SMACK64MMAP
+Jul 28 14:41:04 bob-desktop kernel: [    0.773243] evm: security.apparmor
+Jul 28 14:41:04 bob-desktop kernel: [    0.773243] evm: security.ima
+Jul 28 14:41:04 bob-desktop kernel: [    0.773243] evm: security.capability
+Jul 28 14:41:04 bob-desktop kernel: [    0.773244] evm: HMAC attrs: 0x1
+Jul 28 14:41:04 bob-desktop kernel: [    0.773724] PM:   Magic number: 12:472:703
+Jul 28 14:41:04 bob-desktop kernel: [    0.773840] rtc_cmos 00:02: setting system clock to 2020-07-28T21:41:01 UTC (1595972461)
+Jul 28 14:41:04 bob-desktop kernel: [    0.774698] Freeing unused decrypted memory: 2040K
+Jul 28 14:41:04 bob-desktop kernel: [    0.775007] Freeing unused kernel image memory: 2664K
+Jul 28 14:41:04 bob-desktop kernel: [    0.811527] Write protecting the kernel read-only data: 22528k
+Jul 28 14:41:04 bob-desktop kernel: [    0.811887] Freeing unused kernel image memory: 2008K
+Jul 28 14:41:04 bob-desktop kernel: [    0.812094] Freeing unused kernel image memory: 1472K
+Jul 28 14:41:04 bob-desktop kernel: [    0.818453] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 28 14:41:04 bob-desktop kernel: [    0.818454] x86/mm: Checking user space page tables
+Jul 28 14:41:04 bob-desktop kernel: [    0.824583] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 28 14:41:04 bob-desktop kernel: [    0.824584] Run /init as init process
+Jul 28 14:41:04 bob-desktop kernel: [    0.893263] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+Jul 28 14:41:04 bob-desktop kernel: [    0.893264] ahci 0000:00:1f.2: version 3.0
+Jul 28 14:41:04 bob-desktop kernel: [    0.893265] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Jul 28 14:41:04 bob-desktop kernel: [    0.893531] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+Jul 28 14:41:04 bob-desktop kernel: [    0.893575] ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 6 ports 6 Gbps 0x11 impl SATA mode
+Jul 28 14:41:04 bob-desktop kernel: [    0.893577] ahci 0000:00:1f.2: flags: 64bit ncq led clo pio slum part ems apst 
+Jul 28 14:41:04 bob-desktop kernel: [    0.895342] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+Jul 28 14:41:04 bob-desktop kernel: [    0.904435] scsi host0: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.906291] libphy: r8169: probed
+Jul 28 14:41:04 bob-desktop kernel: [    0.906441] r8169 0000:02:00.0 eth0: RTL8168g/8111g, d0:50:99:5a:1c:7a, XID 4c0, IRQ 44
+Jul 28 14:41:04 bob-desktop kernel: [    0.906442] r8169 0000:02:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+Jul 28 14:41:04 bob-desktop kernel: [    0.907510] scsi host1: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.907637] scsi host2: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.907721] scsi host3: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.907810] scsi host4: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.907872] scsi host5: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.907900] ata1: SATA max UDMA/133 abar m2048@0xefc39000 port 0xefc39100 irq 42
+Jul 28 14:41:04 bob-desktop kernel: [    0.907900] ata2: DUMMY
+Jul 28 14:41:04 bob-desktop kernel: [    0.907901] ata3: DUMMY
+Jul 28 14:41:04 bob-desktop kernel: [    0.907901] ata4: DUMMY
+Jul 28 14:41:04 bob-desktop kernel: [    0.907902] ata5: SATA max UDMA/133 abar m2048@0xefc39000 port 0xefc39300 irq 42
+Jul 28 14:41:04 bob-desktop kernel: [    0.907902] ata6: DUMMY
+Jul 28 14:41:04 bob-desktop kernel: [    0.908062] ahci 0000:06:00.0: SSS flag set, parallel bus scan disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.908101] ahci 0000:06:00.0: AHCI 0001.0200 32 slots 2 ports 6 Gbps 0x3 impl SATA mode
+Jul 28 14:41:04 bob-desktop kernel: [    0.908102] ahci 0000:06:00.0: flags: 64bit ncq sntf stag led clo pmp pio slum part ccc sxs 
+Jul 28 14:41:04 bob-desktop kernel: [    0.908257] scsi host6: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.908311] scsi host7: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.908337] ata7: SATA max UDMA/133 abar m512@0xef900000 port 0xef900100 irq 45
+Jul 28 14:41:04 bob-desktop kernel: [    0.908339] ata8: SATA max UDMA/133 abar m512@0xef900000 port 0xef900180 irq 45
+Jul 28 14:41:04 bob-desktop kernel: [    0.908450] ahci 0000:08:00.0: SSS flag set, parallel bus scan disabled
+Jul 28 14:41:04 bob-desktop kernel: [    0.908489] ahci 0000:08:00.0: AHCI 0001.0200 32 slots 2 ports 6 Gbps 0x3 impl SATA mode
+Jul 28 14:41:04 bob-desktop kernel: [    0.908490] ahci 0000:08:00.0: flags: 64bit ncq sntf stag led clo pmp pio slum part ccc sxs 
+Jul 28 14:41:04 bob-desktop kernel: [    0.908684] scsi host8: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.908741] scsi host9: ahci
+Jul 28 14:41:04 bob-desktop kernel: [    0.908768] ata9: SATA max UDMA/133 abar m512@0xef800000 port 0xef800100 irq 46
+Jul 28 14:41:04 bob-desktop kernel: [    0.908771] ata10: SATA max UDMA/133 abar m512@0xef800000 port 0xef800180 irq 46
+Jul 28 14:41:04 bob-desktop kernel: [    0.921170] r8169 0000:02:00.0 enp2s0: renamed from eth0
+Jul 28 14:41:04 bob-desktop kernel: [    0.986916] e1000e 0000:00:19.0 0000:00:19.0 (uninitialized): registered PHC clock
+Jul 28 14:41:04 bob-desktop kernel: [    1.019542] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Jul 28 14:41:04 bob-desktop kernel: [    1.035508] usb 2-1: new high-speed USB device number 2 using ehci-pci
+Jul 28 14:41:04 bob-desktop kernel: [    1.039603] usb 4-3: new SuperSpeed Gen 1 USB device number 2 using xhci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    1.061126] usb 4-3: New USB device found, idVendor=174c, idProduct=3074, bcdDevice= 1.00
+Jul 28 14:41:04 bob-desktop kernel: [    1.061127] usb 4-3: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+Jul 28 14:41:04 bob-desktop kernel: [    1.061128] usb 4-3: Product: ASM107x
+Jul 28 14:41:04 bob-desktop kernel: [    1.061129] usb 4-3: Manufacturer: ASRock
+Jul 28 14:41:04 bob-desktop kernel: [    1.062072] hub 4-3:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    1.062183] hub 4-3:1.0: 4 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    1.076029] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) d0:50:99:5a:1c:7c
+Jul 28 14:41:04 bob-desktop kernel: [    1.076030] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+Jul 28 14:41:04 bob-desktop kernel: [    1.076057] e1000e 0000:00:19.0 eth0: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
+Jul 28 14:41:04 bob-desktop kernel: [    1.076640] e1000e 0000:00:19.0 enp0s25: renamed from eth0
+Jul 28 14:41:04 bob-desktop kernel: [    1.163545] usb 5-2: new high-speed USB device number 2 using xhci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    1.175908] usb 1-1: New USB device found, idVendor=8087, idProduct=8009, bcdDevice= 0.00
+Jul 28 14:41:04 bob-desktop kernel: [    1.175909] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jul 28 14:41:04 bob-desktop kernel: [    1.176184] hub 1-1:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    1.176263] hub 1-1:1.0: 6 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    1.183529] usb 3-9: new high-speed USB device number 2 using xhci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    1.191908] usb 2-1: New USB device found, idVendor=8087, idProduct=8001, bcdDevice= 0.00
+Jul 28 14:41:04 bob-desktop kernel: [    1.191919] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jul 28 14:41:04 bob-desktop kernel: [    1.192199] hub 2-1:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    1.192288] hub 2-1:1.0: 8 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    1.221825] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    1.221926] ata9: SATA link down (SStatus 0 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    1.221928] ata7: SATA link down (SStatus 0 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    1.221933] ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    1.223429] ata1.00: supports DRM functions and may not be fully accessible
+Jul 28 14:41:04 bob-desktop kernel: [    1.223969] ata1.00: NCQ Send/Recv Log not supported
+Jul 28 14:41:04 bob-desktop kernel: [    1.223970] ata1.00: ATA-9: Samsung SSD 850 EVO 120GB, EMT01B6Q, max UDMA/133
+Jul 28 14:41:04 bob-desktop kernel: [    1.223971] ata1.00: 234441648 sectors, multi 1: LBA48 NCQ (depth 32), AA
+Jul 28 14:41:04 bob-desktop kernel: [    1.224929] ata5.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jul 28 14:41:04 bob-desktop kernel: [    1.224930] ata5.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jul 28 14:41:04 bob-desktop kernel: [    1.224931] ata5.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jul 28 14:41:04 bob-desktop kernel: [    1.225228] ata1.00: supports DRM functions and may not be fully accessible
+Jul 28 14:41:04 bob-desktop kernel: [    1.225467] ata5.00: ATAPI: TSSTcorp CDDVDW SH-224DB, SB01, max UDMA/100
+Jul 28 14:41:04 bob-desktop kernel: [    1.225626] ata1.00: NCQ Send/Recv Log not supported
+Jul 28 14:41:04 bob-desktop kernel: [    1.226710] ata1.00: configured for UDMA/133
+Jul 28 14:41:04 bob-desktop kernel: [    1.226776] ata5.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jul 28 14:41:04 bob-desktop kernel: [    1.226778] ata5.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jul 28 14:41:04 bob-desktop kernel: [    1.226779] ata5.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jul 28 14:41:04 bob-desktop kernel: [    1.226893] scsi 0:0:0:0: Direct-Access     ATA      Samsung SSD 850  1B6Q PQ: 0 ANSI: 5
+Jul 28 14:41:04 bob-desktop kernel: [    1.227164] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul 28 14:41:04 bob-desktop kernel: [    1.227181] sd 0:0:0:0: [sda] 234441648 512-byte logical blocks: (120 GB/112 GiB)
+Jul 28 14:41:04 bob-desktop kernel: [    1.227186] sd 0:0:0:0: [sda] Write Protect is off
+Jul 28 14:41:04 bob-desktop kernel: [    1.227197] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul 28 14:41:04 bob-desktop kernel: [    1.227203] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul 28 14:41:04 bob-desktop kernel: [    1.227321] ata5.00: configured for UDMA/100
+Jul 28 14:41:04 bob-desktop kernel: [    1.227484]  sda: sda1
+Jul 28 14:41:04 bob-desktop kernel: [    1.228246] sd 0:0:0:0: [sda] supports TCG Opal
+Jul 28 14:41:04 bob-desktop kernel: [    1.228247] sd 0:0:0:0: [sda] Attached SCSI disk
+Jul 28 14:41:04 bob-desktop kernel: [    1.228707] scsi 4:0:0:0: CD-ROM            TSSTcorp CDDVDW SH-224DB  SB01 PQ: 0 ANSI: 5
+Jul 28 14:41:04 bob-desktop kernel: [    1.311926] sr 4:0:0:0: [sr0] scsi3-mmc drive: 48x/48x writer dvd-ram cd/rw xa/form2 cdda tray
+Jul 28 14:41:04 bob-desktop kernel: [    1.311927] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jul 28 14:41:04 bob-desktop kernel: [    1.312122] sr 4:0:0:0: Attached scsi CD-ROM sr0
+Jul 28 14:41:04 bob-desktop kernel: [    1.312182] sr 4:0:0:0: Attached scsi generic sg1 type 5
+Jul 28 14:41:04 bob-desktop kernel: [    1.337218] usb 3-9: New USB device found, idVendor=174c, idProduct=2074, bcdDevice= 1.00
+Jul 28 14:41:04 bob-desktop kernel: [    1.337229] usb 3-9: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+Jul 28 14:41:04 bob-desktop kernel: [    1.337230] usb 3-9: Product: ASM107x
+Jul 28 14:41:04 bob-desktop kernel: [    1.337231] usb 3-9: Manufacturer: ASRock
+Jul 28 14:41:04 bob-desktop kernel: [    1.337957] hub 3-9:1.0: USB hub found
+Jul 28 14:41:04 bob-desktop kernel: [    1.338110] hub 3-9:1.0: 4 ports detected
+Jul 28 14:41:04 bob-desktop kernel: [    1.384582] usb 5-2: New USB device found, idVendor=03f0, idProduct=6e12, bcdDevice= 1.00
+Jul 28 14:41:04 bob-desktop kernel: [    1.384583] usb 5-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 28 14:41:04 bob-desktop kernel: [    1.384584] usb 5-2: Product: Officejet 7610 series
+Jul 28 14:41:04 bob-desktop kernel: [    1.384584] usb 5-2: Manufacturer: HP
+Jul 28 14:41:04 bob-desktop kernel: [    1.384585] usb 5-2: SerialNumber: CN6413R1F1064N
+Jul 28 14:41:04 bob-desktop kernel: [    1.408257] usb-storage 5-2:1.2: USB Mass Storage device detected
+Jul 28 14:41:04 bob-desktop kernel: [    1.408359] scsi host10: usb-storage 5-2:1.2
+Jul 28 14:41:04 bob-desktop kernel: [    1.408403] usbcore: registered new interface driver usb-storage
+Jul 28 14:41:04 bob-desktop kernel: [    1.409170] usbcore: registered new interface driver uas
+Jul 28 14:41:04 bob-desktop kernel: [    1.467537] usb 3-13: new full-speed USB device number 3 using xhci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    1.617932] usb 3-13: New USB device found, idVendor=046d, idProduct=c52b, bcdDevice=12.01
+Jul 28 14:41:04 bob-desktop kernel: [    1.617933] usb 3-13: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 28 14:41:04 bob-desktop kernel: [    1.617944] usb 3-13: Product: USB Receiver
+Jul 28 14:41:04 bob-desktop kernel: [    1.617945] usb 3-13: Manufacturer: Logitech
+Jul 28 14:41:04 bob-desktop kernel: [    1.621633] hidraw: raw HID events driver (C) Jiri Kosina
+Jul 28 14:41:04 bob-desktop kernel: [    1.626057] usbcore: registered new interface driver usbhid
+Jul 28 14:41:04 bob-desktop kernel: [    1.626058] usbhid: USB HID core driver
+Jul 28 14:41:04 bob-desktop kernel: [    1.626178] ata8: SATA link down (SStatus 0 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    1.627436] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.0/0003:046D:C52B.0001/input/input3
+Jul 28 14:41:04 bob-desktop kernel: [    1.639545] tsc: Refined TSC clocksource calibration: 3598.954 MHz
+Jul 28 14:41:04 bob-desktop kernel: [    1.639561] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x33e0772d3e4, max_idle_ns: 440795225097 ns
+Jul 28 14:41:04 bob-desktop kernel: [    1.639606] clocksource: Switched to clocksource tsc
+Jul 28 14:41:04 bob-desktop kernel: [    1.683680] hid-generic 0003:046D:C52B.0001: input,hidraw0: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-0000:00:14.0-13/input0
+Jul 28 14:41:04 bob-desktop kernel: [    1.683832] input: Logitech USB Receiver Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.1/0003:046D:C52B.0002/input/input4
+Jul 28 14:41:04 bob-desktop kernel: [    1.683952] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.1/0003:046D:C52B.0002/input/input5
+Jul 28 14:41:04 bob-desktop kernel: [    1.711536] usb 3-9.4: new high-speed USB device number 4 using xhci_hcd
+Jul 28 14:41:04 bob-desktop kernel: [    1.743663] input: Logitech USB Receiver System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.1/0003:046D:C52B.0002/input/input6
+Jul 28 14:41:04 bob-desktop kernel: [    1.743801] hid-generic 0003:046D:C52B.0002: input,hiddev0,hidraw1: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-13/input1
+Jul 28 14:41:04 bob-desktop kernel: [    1.743954] hid-generic 0003:046D:C52B.0003: hiddev1,hidraw2: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-13/input2
+Jul 28 14:41:04 bob-desktop kernel: [    1.828062] usb 3-9.4: New USB device found, idVendor=0bda, idProduct=b812, bcdDevice= 2.10
+Jul 28 14:41:04 bob-desktop kernel: [    1.828063] usb 3-9.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 28 14:41:04 bob-desktop kernel: [    1.828063] usb 3-9.4: Product: 802.11ac NIC
+Jul 28 14:41:04 bob-desktop kernel: [    1.828064] usb 3-9.4: Manufacturer: Realtek
+Jul 28 14:41:04 bob-desktop kernel: [    1.828064] usb 3-9.4: SerialNumber: 123456
+Jul 28 14:41:04 bob-desktop kernel: [    1.904225] logitech-djreceiver 0003:046D:C52B.0003: hiddev0,hidraw0: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-13/input2
+Jul 28 14:41:04 bob-desktop kernel: [    1.938236] ata10: SATA link down (SStatus 0 SControl 300)
+Jul 28 14:41:04 bob-desktop kernel: [    2.026218] input: Logitech Unifying Device. Wireless PID:1024 Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.2/0003:046D:C52B.0003/0003:046D:1024.0004/input/input8
+Jul 28 14:41:04 bob-desktop kernel: [    2.026302] hid-generic 0003:046D:1024.0004: input,hidraw1: USB HID v1.11 Mouse [Logitech Unifying Device. Wireless PID:1024] on usb-0000:00:14.0-13/input2:1
+Jul 28 14:41:04 bob-desktop kernel: [    2.036084] input: Logitech K520 as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.2/0003:046D:C52B.0003/0003:046D:2011.0005/input/input12
+Jul 28 14:41:04 bob-desktop kernel: [    2.075656] logitech-hidpp-device 0003:046D:2011.0005: input,hidraw1: USB HID v1.11 Keyboard [Logitech K520] on usb-0000:00:14.0-13/input2:2
+Jul 28 14:41:04 bob-desktop kernel: [    2.082036] input: Logitech M310 as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.2/0003:046D:C52B.0003/0003:046D:1024.0004/input/input13
+Jul 28 14:41:04 bob-desktop kernel: [    2.082297] logitech-hidpp-device 0003:046D:1024.0004: input,hidraw2: USB HID v1.11 Mouse [Logitech M310] on usb-0000:00:14.0-13/input2:1
+Jul 28 14:41:04 bob-desktop kernel: [    2.109571] fbcon: Taking over console
+Jul 28 14:41:04 bob-desktop kernel: [    2.109630] Console: switching to colour frame buffer device 210x65
+Jul 28 14:41:04 bob-desktop kernel: [    2.113418] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 28 14:41:04 bob-desktop kernel: [    2.209370] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Jul 28 14:41:04 bob-desktop kernel: [    2.227771] systemd[1]: Detected architecture x86-64.
+Jul 28 14:41:04 bob-desktop kernel: [    2.228834] systemd[1]: Set hostname to <bob-desktop>.
+Jul 28 14:41:04 bob-desktop kernel: [    2.440525] scsi 10:0:0:0: Direct-Access     HP       Officejet 7610 s 1.00 PQ: 0 ANSI: 5
+Jul 28 14:41:04 bob-desktop kernel: [    2.440749] sd 10:0:0:0: Attached scsi generic sg2 type 0
+Jul 28 14:41:04 bob-desktop kernel: [    2.444861] sd 10:0:0:0: [sdb] Attached SCSI removable disk
+Jul 28 14:41:04 bob-desktop kernel: [    3.318837] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Jul 28 14:41:04 bob-desktop kernel: [    3.318956] systemd[1]: Created slice System Slice.
+Jul 28 14:41:04 bob-desktop kernel: [    3.318991] systemd[1]: Listening on udev Kernel Socket.
+Jul 28 14:41:04 bob-desktop kernel: [    3.319067] systemd[1]: Created slice system-postfix.slice.
+Jul 28 14:41:04 bob-desktop kernel: [    3.319108] systemd[1]: Listening on Journal Socket (/dev/log).
+Jul 28 14:41:04 bob-desktop kernel: [    3.319185] systemd[1]: Created slice User and Session Slice.
+Jul 28 14:41:04 bob-desktop kernel: [    3.319220] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+Jul 28 14:41:04 bob-desktop kernel: [    3.332984] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jul 28 14:41:04 bob-desktop kernel: [    3.333119] lp: driver loaded but no devices found
+Jul 28 14:41:04 bob-desktop kernel: [    3.336230] ppdev: user-space parallel port driver
+Jul 28 14:41:04 bob-desktop kernel: [    3.404767] systemd-journald[399]: Received request to flush runtime journal from PID 1
+Jul 28 14:41:04 bob-desktop kernel: [    3.431599] Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k SSFS
+Jul 28 14:41:04 bob-desktop kernel: [    3.479354] audit: type=1400 audit(1595972464.197:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=518 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481063] audit: type=1400 audit(1595972464.201:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=517 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481065] audit: type=1400 audit(1595972464.201:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=517 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481066] audit: type=1400 audit(1595972464.201:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=517 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481834] audit: type=1400 audit(1595972464.201:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=514 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481837] audit: type=1400 audit(1595972464.201:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=514 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481840] audit: type=1400 audit(1595972464.201:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=514 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.481842] audit: type=1400 audit(1595972464.201:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=514 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.482455] audit: type=1400 audit(1595972464.201:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=520 comm="apparmor_parser"
+Jul 28 14:41:04 bob-desktop kernel: [    3.483967] ACPI Warning: SystemIO range 0x0000000000001828-0x000000000000182F conflicts with OpRegion 0x0000000000001800-0x000000000000187F (\PMIO) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483972] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul 28 14:41:04 bob-desktop kernel: [    3.483974] ACPI Warning: SystemIO range 0x0000000000001C40-0x0000000000001C4F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483978] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul 28 14:41:04 bob-desktop kernel: [    3.483979] ACPI Warning: SystemIO range 0x0000000000001C30-0x0000000000001C3F conflicts with OpRegion 0x0000000000001C00-0x0000000000001C3F (\GPRL) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483982] ACPI Warning: SystemIO range 0x0000000000001C30-0x0000000000001C3F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483985] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul 28 14:41:04 bob-desktop kernel: [    3.483986] ACPI Warning: SystemIO range 0x0000000000001C00-0x0000000000001C2F conflicts with OpRegion 0x0000000000001C00-0x0000000000001C3F (\GPRL) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483992] ACPI Warning: SystemIO range 0x0000000000001C00-0x0000000000001C2F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190703/utaddress-213)
+Jul 28 14:41:04 bob-desktop kernel: [    3.483994] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul 28 14:41:04 bob-desktop kernel: [    3.483995] lpc_ich: Resource conflict(s) found affecting gpio_ich
+Jul 28 14:41:04 bob-desktop kernel: [    3.532655] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+Jul 28 14:41:04 bob-desktop kernel: [    3.532657] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+Jul 28 14:41:04 bob-desktop kernel: [    3.532659] RAPL PMU: hw unit of domain package 2^-14 Joules
+Jul 28 14:41:04 bob-desktop kernel: [    3.532659] RAPL PMU: hw unit of domain dram 2^-14 Joules
+Jul 28 14:41:04 bob-desktop kernel: [    3.532661] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+Jul 28 14:41:04 bob-desktop kernel: [    3.535553] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jul 28 14:41:04 bob-desktop kernel: [    3.540080] snd_hda_codec_realtek hdaudioC1D0: ALC1150: SKU not ready 0x00000000
+Jul 28 14:41:04 bob-desktop kernel: [    3.540543] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC1150: line_outs=3 (0x14/0x15/0x16/0x0/0x0) type:line
+Jul 28 14:41:04 bob-desktop kernel: [    3.540545] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Jul 28 14:41:04 bob-desktop kernel: [    3.540546] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+Jul 28 14:41:04 bob-desktop kernel: [    3.540547] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+Jul 28 14:41:04 bob-desktop kernel: [    3.540548] snd_hda_codec_realtek hdaudioC1D0:    dig-out=0x1e/0x0
+Jul 28 14:41:04 bob-desktop kernel: [    3.540549] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+Jul 28 14:41:04 bob-desktop kernel: [    3.540550] snd_hda_codec_realtek hdaudioC1D0:      Front Mic=0x19
+Jul 28 14:41:04 bob-desktop kernel: [    3.540551] snd_hda_codec_realtek hdaudioC1D0:      Rear Mic=0x18
+Jul 28 14:41:04 bob-desktop kernel: [    3.540552] snd_hda_codec_realtek hdaudioC1D0:      Line=0x1a
+Jul 28 14:41:04 bob-desktop kernel: [    3.545598] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jul 28 14:41:04 bob-desktop kernel: [    3.564224] input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input14
+Jul 28 14:41:04 bob-desktop kernel: [    3.564339] input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input15
+Jul 28 14:41:04 bob-desktop kernel: [    3.564409] input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card1/input16
+Jul 28 14:41:04 bob-desktop kernel: [    3.564466] input: HDA Intel PCH Line Out Front as /devices/pci0000:00/0000:00:1b.0/sound/card1/input17
+Jul 28 14:41:04 bob-desktop kernel: [    3.564543] input: HDA Intel PCH Line Out Surround as /devices/pci0000:00/0000:00:1b.0/sound/card1/input18
+Jul 28 14:41:04 bob-desktop kernel: [    3.564667] input: HDA Intel PCH Line Out CLFE as /devices/pci0000:00/0000:00:1b.0/sound/card1/input19
+Jul 28 14:41:04 bob-desktop kernel: [    3.564762] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card1/input20
+Jul 28 14:41:04 bob-desktop kernel: [    3.564841] cryptd: max_cpu_qlen set to 1000
+Jul 28 14:41:04 bob-desktop kernel: [    3.573813] checking generic (d0000000 6c0000) vs hw (d0000000 10000000)
+Jul 28 14:41:04 bob-desktop kernel: [    3.573815] fb0: switching to inteldrmfb from VESA VGA
+Jul 28 14:41:04 bob-desktop kernel: [    3.573997] Console: switching to colour dummy device 80x25
+Jul 28 14:41:04 bob-desktop kernel: [    3.574056] i915 0000:00:02.0: vgaarb: deactivate vga console
+Jul 28 14:41:04 bob-desktop kernel: [    3.574568] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Jul 28 14:41:04 bob-desktop kernel: [    3.574569] [drm] Driver supports precise vblank timestamp query.
+Jul 28 14:41:04 bob-desktop kernel: [    3.574906] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Jul 28 14:41:04 bob-desktop kernel: [    3.591457] [drm] Initialized i915 1.6.0 20190619 for 0000:00:02.0 on minor 0
+Jul 28 14:41:04 bob-desktop kernel: [    3.593243] 88x2bu: loading out-of-tree module taints kernel.
+Jul 28 14:41:04 bob-desktop kernel: [    3.593841] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Jul 28 14:41:04 bob-desktop kernel: [    3.594257] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input21
+Jul 28 14:41:04 bob-desktop kernel: [    3.594429] snd_hda_intel 0000:00:03.0: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+Jul 28 14:41:04 bob-desktop kernel: [    3.607926] 88x2bu: module verification failed: signature and/or required key missing - tainting kernel
+Jul 28 14:41:04 bob-desktop kernel: [    3.608094] AVX2 version of gcm_enc/dec engaged.
+Jul 28 14:41:04 bob-desktop kernel: [    3.608095] AES CTR mode by8 optimization enabled
+Jul 28 14:41:04 bob-desktop kernel: [    3.633190] fbcon: i915drmfb (fb0) is primary device
+Jul 28 14:41:04 bob-desktop kernel: [    3.633295] Console: switching to colour frame buffer device 210x65
+Jul 28 14:41:04 bob-desktop kernel: [    3.633327] i915 0000:00:02.0: fb0: i915drmfb frame buffer device
+Jul 28 14:41:04 bob-desktop kernel: [    3.692305] input: HDA Intel HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/sound/card0/input22
+Jul 28 14:41:04 bob-desktop kernel: [    3.692354] input: HDA Intel HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/sound/card0/input23
+Jul 28 14:41:04 bob-desktop kernel: [    3.692398] input: HDA Intel HDMI HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:03.0/sound/card0/input24
+Jul 28 14:41:04 bob-desktop kernel: [    3.692435] input: HDA Intel HDMI HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:03.0/sound/card0/input25
+Jul 28 14:41:04 bob-desktop kernel: [    3.692491] input: HDA Intel HDMI HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:03.0/sound/card0/input26
+Jul 28 14:41:04 bob-desktop udisksd[673]: udisks daemon version 2.7.6 starting
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Found user 'avahi' (UID 110) and group 'avahi' (GID 121).
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Successfully dropped root privileges.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: avahi-daemon 0.7 starting up.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: dbus[679]: Unknown group "power" in message bus configuration file
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] AppArmor D-Bus mediation is enabled
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Network Manager...
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Successfully called chroot().
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Successfully dropped remaining capabilities.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting WPA supplicant...
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: No service file found in /etc/avahi/services.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting LSB: Record successful boot for GRUB...
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target System Time Synchronized.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: New relevant interface lo.IPv6 for mDNS.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: New relevant interface lo.IPv4 for mDNS.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Network interface enumeration completed.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Registering new address record for ::1 on lo.*.
+Jul 28 14:41:04 bob-desktop avahi-daemon[678]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Discard unused blocks once a week.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Message of the Day.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Trigger anacron every hour.
+Jul 28 14:41:04 bob-desktop thermald[676]: NO RAPL sysfs present
+Jul 28 14:41:04 bob-desktop thermald[676]: 13 CPUID levels; family:model:stepping 0x6:3c:3 (6:60:3)
+Jul 28 14:41:04 bob-desktop thermald[676]: Polling mode is enabled: 4
+Jul 28 14:41:04 bob-desktop thermald[676]: Thermal DTS: No coretemp sysfs found
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Run anacron jobs.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Daily apt download activities.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Timers.
+Jul 28 14:41:04 bob-desktop anacron[717]: Anacron 2.3 started on 2020-07-28
+Jul 28 14:41:04 bob-desktop systemd[1]: Started System Logging Service.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Resets System Activity Data Collector.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Jul 28 14:41:04 bob-desktop udisksd[673]: failed to load module crypto: libbd_crypto.so.2: cannot open shared object file: No such file or directory
+Jul 28 14:41:04 bob-desktop udisksd[673]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Save/Restore Sound Card State.
+Jul 28 14:41:04 bob-desktop anacron[717]: Normal exit (0 jobs run)
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Thermal Daemon Service.
+Jul 28 14:41:04 bob-desktop thermald[676]: Zone update failed: unable to bind
+Jul 28 14:41:04 bob-desktop thermald[676]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Jul 28 14:41:04 bob-desktop thermald[676]: No thermal sensors found
+Jul 28 14:41:04 bob-desktop thermald[676]: THD engine start failed
+Jul 28 14:41:04 bob-desktop networkd-dispatcher[672]: WARNING: systemd-networkd is not running, output will be incomplete.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.5' (uid=0 pid=664 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Authorization Manager...
+Jul 28 14:41:04 bob-desktop acpid: starting up with netlink and the input layer
+Jul 28 14:41:04 bob-desktop udisksd[673]: Failed to load the 'mdraid' libblockdev plugin
+Jul 28 14:41:04 bob-desktop udisksd[673]: Failed to load the 'crypto' libblockdev plugin
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started WPA supplicant.
+Jul 28 14:41:04 bob-desktop wpa_supplicant[714]: Successfully initialized wpa_supplicant
+Jul 28 14:41:04 bob-desktop acpid: 8 rules loaded
+Jul 28 14:41:04 bob-desktop acpid: waiting for events: event logging is off
+Jul 28 14:41:04 bob-desktop kernel: [    3.818162] intel_rapl_common: Found RAPL domain package
+Jul 28 14:41:04 bob-desktop kernel: [    3.818164] intel_rapl_common: Found RAPL domain core
+Jul 28 14:41:04 bob-desktop kernel: [    3.818165] intel_rapl_common: Found RAPL domain uncore
+Jul 28 14:41:04 bob-desktop kernel: [    3.818166] intel_rapl_common: Found RAPL domain dram
+Jul 28 14:41:04 bob-desktop polkitd[732]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Authorization Manager.
+Jul 28 14:41:04 bob-desktop accounts-daemon[664]: started daemon version 0.6.45
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Accounts Service.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.5798] NetworkManager (version 1.10.6) is starting... (for the first time)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.5798] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, no-mac-addr-change.conf, rtl88x2bu.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.5844] manager[0x55f0a5ae7060]: monitoring kernel firmware directory '/lib/firmware'.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.5844] monitoring ifupdown state file '/run/network/ifstate'.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.10' (uid=0 pid=712 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Hostname Service...
+Jul 28 14:41:04 bob-desktop kernel: [    3.883423] usbcore: registered new interface driver rtl88x2bu
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jul 28 14:41:04 bob-desktop systemd-udevd[445]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jul 28 14:41:04 bob-desktop kernel: [    3.887183] rtl88x2bu 3-9.4:1.0 wlx74ee2af5332e: renamed from wlan0
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Load/Save RF Kill Switch Status.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Hostname Service.
+Jul 28 14:41:04 bob-desktop python3: io/hpmud/musb.c 2189: [539] hpmud_make_usb_uri() bus=005 dev=002
+Jul 28 14:41:04 bob-desktop python3: io/hpmud/musb.c 2287: hpmud_make_usb_uri() uri=hp:/usb/Officejet_7610_series?serial=CN6413R1F1064N bytes_read=51
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6463] hostname: hostname: using hostnamed
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6464] hostname: hostname changed from (none) to "bob-desktop"
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6466] dns-mgr[0x55f0a5adc1a0]: init: dns=systemd-resolved, rc-manager=symlink, plugin=systemd-resolved
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6475] rfkill0: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9.4/3-9.4:1.0/ieee80211/phy0/rfkill0) (driver rtl88x2bu)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6476] manager[0x55f0a5ae7060]: rfkill: WiFi hardware radio set enabled
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6476] manager[0x55f0a5ae7060]: rfkill: WWAN hardware radio set enabled
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Network Manager.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Network Manager Wait Online...
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Network.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Permit User Sessions...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Bacula Storage Daemon service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Bacula File Daemon service...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Permit User Sessions.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=712 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Light Display Manager...
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Hold until boot process finishes up...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Bacula Storage Daemon service.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: init_dev.c:123-0 [SE0001] Unable to stat device FileChgr1-Dev1 at /nonexistant/path/to/file/archive/dir: ERR=No such file or directory
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: stored.c:614-0 Could not initialize SD device "FileChgr1-Dev1"
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: init_dev.c:123-0 [SE0001] Unable to stat device FileChgr1-Dev2 at /nonexistant/path/to/file/archive/dir: ERR=No such file or directory
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: stored.c:614-0 Could not initialize SD device "FileChgr1-Dev2"
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: init_dev.c:123-0 [SE0001] Unable to stat device FileChgr2-Dev1 at /nonexistant/path/to/file/archive/dir: ERR=No such file or directory
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: stored.c:614-0 Could not initialize SD device "FileChgr2-Dev1"
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: init_dev.c:123-0 [SE0001] Unable to stat device FileChgr2-Dev2 at /nonexistant/path/to/file/archive/dir: ERR=No such file or directory
+Jul 28 14:41:04 bob-desktop bacula-sd[757]: bob-desktop-sd: stored.c:614-0 Could not initialize SD device "FileChgr2-Dev2"
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Bacula File Daemon service.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6667] init!
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6668]       interface-parser: parsing file /etc/network/interfaces
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6668]       interface-parser: finished parsing file /etc/network/interfaces
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6668] management mode: unmanaged
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6673] devices added (path: /sys/devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9.4/3-9.4:1.0/net/wlx74ee2af5332e, iface: wlx74ee2af5332e)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] device added (path: /sys/devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9.4/3-9.4:1.0/net/wlx74ee2af5332e, iface: wlx74ee2af5332e): no ifupdown configuration found.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] devices added (path: /sys/devices/pci0000:00/0000:00:19.0/net/enp0s25, iface: enp0s25)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] device added (path: /sys/devices/pci0000:00/0000:00:19.0/net/enp0s25, iface: enp0s25): no ifupdown configuration found.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] devices added (path: /sys/devices/pci0000:00/0000:00:1c.2/0000:02:00.0/net/enp2s0, iface: enp2s0)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] device added (path: /sys/devices/pci0000:00/0000:00:1c.2/0000:02:00.0/net/enp2s0, iface: enp2s0): no ifupdown configuration found.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6674] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] end _init.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] (-1515061056) ... get_connections.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6675] (-1515061056) ... get_connections (managed=false): return empty list.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.14' (uid=0 pid=759 comm="/usr/sbin/lightdm " label="unconfined")
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6755] keyfile: new connection /etc/NetworkManager/system-connections/jnb352 1 (f1436997-bd9a-4467-9b56-21bda8192156,"jnb352 1")
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6819] keyfile: new connection /etc/NetworkManager/system-connections/jnb352 (7da81f7a-0777-457a-acd3-bce96dc3944b,"jnb352")
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6823] get unmanaged devices count: 0
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6823] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6823] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6823] manager: Networking is enabled by state file
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6824] dhcp-init: Using DHCP client 'dhclient'
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMBondDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMBridgeDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMDummyDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMEthernetDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMMacsecDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMPppDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6825] Loaded device plugin: NMTunDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6826] Loaded device plugin: NMVethDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6826] Loaded device plugin: NMVlanDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6826] Loaded device plugin: NMVxlanDeviceFactory (internal)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6829] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Printer.
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6870] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6876] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6897] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6916] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-team.so)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6928] device (lo): carrier: link connected
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6933] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul 28 14:41:04 bob-desktop kernel: [    3.964630] usblp 5-2:1.1: usblp1: USB Bidirectional printer dev 2 if 1 alt 0 proto 2 vid 0x03F0 pid 0x6E12
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6942] manager: (enp0s25): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6950] keyfile: add connection in-memory (4513a9d2-ce25-3f96-8f1c-4eebf7b5a245,"Wired connection 1")
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6953] settings: (enp0s25): created default wired connection 'Wired connection 1'
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.6960] device (enp0s25): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 28 14:41:04 bob-desktop kernel: [    3.968570] usblp 5-2:1.3: usblp2: USB Bidirectional printer dev 2 if 3 alt 0 proto 2 vid 0x03F0 pid 0x6E12
+Jul 28 14:41:04 bob-desktop kernel: [    3.968598] usbcore: registered new interface driver usblp
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Disk Manager.
+Jul 28 14:41:04 bob-desktop udisksd[673]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Jul 28 14:41:04 bob-desktop systemd[1]: Received SIGRTMIN+20 from PID 454 (plymouthd).
+Jul 28 14:41:04 bob-desktop grub-common[715]:  * Recording successful boot for GRUB
+Jul 28 14:41:04 bob-desktop apport[655]:  * Starting automatic crash report generation: apport
+Jul 28 14:41:04 bob-desktop apport[655]:    ...done.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started LSB: automatic crash report generation.
+Jul 28 14:41:04 bob-desktop grub-common[715]:    ...done.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started LSB: Record successful boot for GRUB.
+Jul 28 14:41:04 bob-desktop dbus-daemon[679]: [system] Successfully activated service 'org.freedesktop.login1'
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Login Service.
+Jul 28 14:41:04 bob-desktop systemd[1]: Received SIGRTMIN+21 from PID 454 (plymouthd).
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.9109] manager: (enp2s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.9117] keyfile: add connection in-memory (13a64cae-8e08-3d58-a146-53a9166001d2,"Wired connection 2")
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.9121] settings: (enp2s0): created default wired connection 'Wired connection 2'
+Jul 28 14:41:04 bob-desktop NetworkManager[712]: <info>  [1595972464.9126] device (enp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 28 14:41:04 bob-desktop kernel: [    4.188018] Generic Realtek PHY r8169-200:00: attached PHY driver [Generic Realtek PHY] (mii_bus:phy_addr=r8169-200:00, irq=IGNORE)
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Hold until boot process finishes up.
+Jul 28 14:41:04 bob-desktop systemd[1]: Starting Set console scheme...
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Light Display Manager.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Set console scheme.
+Jul 28 14:41:04 bob-desktop systemd[1]: Created slice system-getty.slice.
+Jul 28 14:41:04 bob-desktop systemd[1]: Started Getty on tty1.
+Jul 28 14:41:04 bob-desktop systemd[1]: Reached target Login Prompts.
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.0359] wifi-nl80211: (wlx74ee2af5332e): using nl80211 for WiFi device control
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.0361] device (wlx74ee2af5332e): driver supports Access Point (AP) mode
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.0367] manager: (wlx74ee2af5332e): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/4)
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <warn>  [1595972465.0373] Error: failed to open /run/network/ifstate
+Jul 28 14:41:05 bob-desktop kernel: [    4.308462] r8169 0000:02:00.0 enp2s0: Link is Down
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.0418] device (wlx74ee2af5332e): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 28 14:41:05 bob-desktop systemd[1]: Created slice User Slice of bob.
+Jul 28 14:41:05 bob-desktop systemd[1]: Starting User Manager for UID 1000...
+Jul 28 14:41:05 bob-desktop systemd[1]: Started Session c1 of user bob.
+Jul 28 14:41:05 bob-desktop avahi-daemon[678]: Server startup complete. Host name is bob-desktop.local. Local service cookie is 861628572.
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on GnuPG network certificate management daemon.
+Jul 28 14:41:05 bob-desktop systemd[830]: Reached target Paths.
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 28 14:41:05 bob-desktop systemd[830]: Reached target Timers.
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting D-Bus User Message Bus Socket.
+Jul 28 14:41:05 bob-desktop systemd[830]: Listening on D-Bus User Message Bus Socket.
+Jul 28 14:41:05 bob-desktop systemd[830]: Reached target Sockets.
+Jul 28 14:41:05 bob-desktop systemd[830]: Reached target Basic System.
+Jul 28 14:41:05 bob-desktop systemd[830]: Reached target Default.
+Jul 28 14:41:05 bob-desktop systemd[830]: Startup finished in 21ms.
+Jul 28 14:41:05 bob-desktop systemd[1]: Started User Manager for UID 1000.
+Jul 28 14:41:05 bob-desktop systemd[830]: Started D-Bus User Message Bus.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] AppArmor D-Bus mediation is enabled
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=1000 pid=842 comm="/usr/bin/lxsession -s Lubuntu -e LXDE " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service...
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.Daemon'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating service name='ca.desrt.dconf' requested by ':1.10' (uid=1000 pid=958 comm="light-locker " label="unconfined")
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'ca.desrt.dconf'
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating service name='org.xfce.Xfconf' requested by ':1.17' (uid=1000 pid=961 comm="xfce4-power-manager " label="unconfined")
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.xfce.Xfconf'
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.freedesktop.Notifications' unit='xfce4-notifyd.service' requested by ':1.16' (uid=1000 pid=961 comm="xfce4-power-manager " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting XFCE notifications service...
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.freedesktop.Notifications'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started XFCE notifications service.
+Jul 28 14:41:05 bob-desktop dbus-daemon[679]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.33' (uid=1000 pid=961 comm="xfce4-power-manager " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[1]: Starting Daemon for power management...
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.7257] supplicant: wpa_supplicant running
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.7258] device (wlx74ee2af5332e): supplicant interface state: init -> starting
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating service name='com.canonical.indicator.application' requested by ':1.9' (uid=1000 pid=928 comm="lxpanel --profile Lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating service name='com.canonical.indicator.sound-gtk2' requested by ':1.9' (uid=1000 pid=928 comm="lxpanel --profile Lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'com.canonical.indicator.application'
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.8' (uid=1000 pid=931 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service - disk device monitor...
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service - disk device monitor.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.8' (uid=1000 pid=931 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Jul 28 14:41:05 bob-desktop wpa_supplicant[714]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+Jul 28 14:41:05 bob-desktop wpa_supplicant[714]: dbus: wpa_dbus_get_object_properties: failed to get object properties: (none) none
+Jul 28 14:41:05 bob-desktop wpa_supplicant[714]: dbus: Failed to construct signal
+Jul 28 14:41:05 bob-desktop wpa_supplicant[714]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.7925] device (wlx74ee2af5332e): supplicant interface state: starting -> ready
+Jul 28 14:41:05 bob-desktop NetworkManager[712]: <info>  [1595972465.7925] device (wlx74ee2af5332e): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.8' (uid=1000 pid=931 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Jul 28 14:41:05 bob-desktop gvfs-afc-volume-monitor[1088]: Volume monitor alive
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service - Apple File Conduit monitor.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.8' (uid=1000 pid=931 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service - digital camera monitor...
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service - digital camera monitor.
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.8' (uid=1000 pid=931 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+Jul 28 14:41:05 bob-desktop systemd[830]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Jul 28 14:41:05 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Jul 28 14:41:05 bob-desktop systemd[830]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Jul 28 14:41:05 bob-desktop dbus-daemon[679]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jul 28 14:41:05 bob-desktop systemd[1]: Started Daemon for power management.
+Jul 28 14:41:06 bob-desktop kernel: [    5.315319] kauditd_printk_skb: 14 callbacks suppressed
+Jul 28 14:41:06 bob-desktop kernel: [    5.315320] audit: type=1400 audit(1595972466.033:25): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/mime.cache" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315330] audit: type=1400 audit(1595972466.033:26): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/globs2" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315340] audit: type=1400 audit(1595972466.033:27): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/magic" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315349] audit: type=1400 audit(1595972466.033:28): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/aliases" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315357] audit: type=1400 audit(1595972466.033:29): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/subclasses" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315364] audit: type=1400 audit(1595972466.033:30): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/icons" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.315372] audit: type=1400 audit(1595972466.033:31): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/generic-icons" pid=1137 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.378699] audit: type=1400 audit(1595972466.097:32): apparmor="DENIED" operation="mknod" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.thumbnails/normal/3a8e41d2c55390f514b1021465c20c62.png" pid=1137 comm="evince-thumbnai" requested_mask="c" denied_mask="c" fsuid=1000 ouid=1000
+Jul 28 14:41:06 bob-desktop kernel: [    5.392075] audit: type=1400 audit(1595972466.113:33): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/mime.cache" pid=1141 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop kernel: [    5.392087] audit: type=1400 audit(1595972466.113:34): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name="/home/bob/.local/share/mime/globs2" pid=1141 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jul 28 14:41:06 bob-desktop pulseaudio[1152]: [pulseaudio] pid.c: Daemon already running.
+Jul 28 14:41:06 bob-desktop dbus-daemon[857]: [session uid=1000 pid=857] Successfully activated service 'com.canonical.indicator.sound-gtk2'
+Jul 28 14:41:06 bob-desktop systemd[1]: Started PostgreSQL Cluster 10-main.
+Jul 28 14:41:06 bob-desktop systemd[1]: Starting PostgreSQL RDBMS...
+Jul 28 14:41:06 bob-desktop systemd[1]: Started PostgreSQL RDBMS.
+Jul 28 14:41:09 bob-desktop set-cpufreq[663]: Setting powersave scheduler for all CPUs
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9299] policy: auto-activating connection 'jnb352 1'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9307] device (wlx74ee2af5332e): Activation: starting connection 'jnb352 1' (f1436997-bd9a-4467-9b56-21bda8192156)
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9308] device (wlx74ee2af5332e): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9309] manager: NetworkManager state is now CONNECTING
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9312] device (wlx74ee2af5332e): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9313] device (wlx74ee2af5332e): Activation: (wifi) access point 'jnb352 1' has security, but secrets are required.
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9313] device (wlx74ee2af5332e): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9314] sup-iface[0x55f0a5abbaf0,wlx74ee2af5332e]: wps: type pbc start...
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9336] device (wlx74ee2af5332e): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9339] device (wlx74ee2af5332e): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9340] device (wlx74ee2af5332e): Activation: (wifi) connection 'jnb352 1' has security, and secrets exist.  No new secrets needed.
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9340] Config: added 'ssid' value 'jnb352'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9341] Config: added 'scan_ssid' value '1'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9341] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9341] Config: added 'key_mgmt' value 'WPA-PSK'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9341] Config: added 'auth_alg' value 'OPEN'
+Jul 28 14:41:09 bob-desktop NetworkManager[712]: <info>  [1595972469.9341] Config: added 'psk' value '<hidden>'
+Jul 28 14:41:09 bob-desktop wpa_supplicant[714]: wlx74ee2af5332e: Trying to associate with 9c:1e:95:5f:0e:25 (SSID='jnb352' freq=2437 MHz)
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.6022] device (wlx74ee2af5332e): supplicant interface state: ready -> associating
+Jul 28 14:41:10 bob-desktop wpa_supplicant[714]: wlx74ee2af5332e: Associated with 9c:1e:95:5f:0e:25
+Jul 28 14:41:10 bob-desktop wpa_supplicant[714]: wlx74ee2af5332e: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8146] device (wlx74ee2af5332e): supplicant interface state: associating -> associated
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8250] device (wlx74ee2af5332e): supplicant interface state: associated -> 4-way handshake
+Jul 28 14:41:10 bob-desktop wpa_supplicant[714]: wlx74ee2af5332e: WPA: Key negotiation completed with 9c:1e:95:5f:0e:25 [PTK=CCMP GTK=TKIP]
+Jul 28 14:41:10 bob-desktop kernel: [   10.111453] IPv6: ADDRCONF(NETDEV_CHANGE): wlx74ee2af5332e: link becomes ready
+Jul 28 14:41:10 bob-desktop wpa_supplicant[714]: wlx74ee2af5332e: CTRL-EVENT-CONNECTED - Connection to 9c:1e:95:5f:0e:25 completed [id=0 id_str=]
+Jul 28 14:41:10 bob-desktop wpa_supplicant[714]: bgscan simple: Failed to enable signal strength monitoring
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8432] device (wlx74ee2af5332e): supplicant interface state: 4-way handshake -> completed
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8433] device (wlx74ee2af5332e): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'jnb352'.
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8435] device (wlx74ee2af5332e): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8452] dhcp4 (wlx74ee2af5332e): activation: beginning transaction (timeout in 45 seconds)
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.8481] dhcp4 (wlx74ee2af5332e): dhclient started with pid 1181
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: Joining mDNS multicast group on interface wlx74ee2af5332e.IPv6 with address fe80::8be2:1cf8:8b9c:7996.
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: New relevant interface wlx74ee2af5332e.IPv6 for mDNS.
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: Registering new address record for fe80::8be2:1cf8:8b9c:7996 on wlx74ee2af5332e.*.
+Jul 28 14:41:10 bob-desktop dhclient[1181]: DHCPREQUEST of 192.168.0.31 on wlx74ee2af5332e to 255.255.255.255 port 67 (xid=0x5e53ef17)
+Jul 28 14:41:10 bob-desktop dhclient[1181]: DHCPACK of 192.168.0.31 from 192.168.0.1
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9160] dhcp4 (wlx74ee2af5332e):   address 192.168.0.31
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9160] dhcp4 (wlx74ee2af5332e):   plen 24 (255.255.255.0)
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9160] dhcp4 (wlx74ee2af5332e):   gateway 192.168.0.1
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9161] dhcp4 (wlx74ee2af5332e):   lease time 86400
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9161] dhcp4 (wlx74ee2af5332e):   nameserver '192.168.0.1'
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9161] dhcp4 (wlx74ee2af5332e):   nameserver '205.171.2.25'
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9161] dhcp4 (wlx74ee2af5332e):   domain name 'Home'
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9161] dhcp4 (wlx74ee2af5332e): state changed unknown -> bound
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: Joining mDNS multicast group on interface wlx74ee2af5332e.IPv4 with address 192.168.0.31.
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: New relevant interface wlx74ee2af5332e.IPv4 for mDNS.
+Jul 28 14:41:10 bob-desktop avahi-daemon[678]: Registering new address record for 192.168.0.31 on wlx74ee2af5332e.IPv4.
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9180] device (wlx74ee2af5332e): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9190] device (wlx74ee2af5332e): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9194] device (wlx74ee2af5332e): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9197] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul 28 14:41:10 bob-desktop dhclient[1181]: bound to 192.168.0.31 -- renewal in 34853 seconds.
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9251] manager: NetworkManager state is now CONNECTED_SITE
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9252] policy: set 'jnb352 1' (wlx74ee2af5332e) as default for IPv4 routing and DNS
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9257] device (wlx74ee2af5332e): Activation: successful, device activated.
+Jul 28 14:41:10 bob-desktop NetworkManager[712]: <info>  [1595972470.9270] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 28 14:41:10 bob-desktop nm-dispatcher: req:2 'up' [wlx74ee2af5332e]: new request (1 scripts)
+Jul 28 14:41:10 bob-desktop nm-dispatcher: req:2 'up' [wlx74ee2af5332e]: start running ordered scripts...
+Jul 28 14:41:10 bob-desktop nm-dispatcher: req:3 'connectivity-change': new request (1 scripts)
+Jul 28 14:41:11 bob-desktop systemd-resolved[647]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jul 28 14:41:11 bob-desktop NetworkManager[712]: <info>  [1595972471.0354] manager: startup complete
+Jul 28 14:41:11 bob-desktop systemd[1]: Started Network Manager Wait Online.
+Jul 28 14:41:11 bob-desktop systemd[1]: Reached target Network is Online.
+Jul 28 14:41:11 bob-desktop systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Jul 28 14:41:11 bob-desktop systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+Jul 28 14:41:11 bob-desktop systemd[1]: Started crash report submission daemon.
+Jul 28 14:41:11 bob-desktop systemd[1]: kerneloops.service: Found left-over process 1216 (kerneloops) in control group while starting unit. Ignoring.
+Jul 28 14:41:11 bob-desktop configure-instance.sh[1210]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Jul 28 14:41:11 bob-desktop systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Jul 28 14:41:11 bob-desktop systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+Jul 28 14:41:11 bob-desktop whoopsie[1212]: [14:41:11] Using lock path: /var/lock/whoopsie/lock
+Jul 28 14:41:11 bob-desktop nm-dispatcher[758]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Jul 28 14:41:11 bob-desktop systemd-resolved[647]: Using degraded feature set (UDP) for DNS server 192.168.0.1.
+Jul 28 14:41:12 bob-desktop configure-instance.sh[1210]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Jul 28 14:41:12 bob-desktop nm-dispatcher[758]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Jul 28 14:41:13 bob-desktop systemd[1]: postfix@-.service: Control process exited, code=exited status=1
+Jul 28 14:41:13 bob-desktop systemd[1]: postfix@-.service: Failed with result 'exit-code'.
+Jul 28 14:41:13 bob-desktop systemd[1]: Failed to start Postfix Mail Transport Agent (instance -).
+Jul 28 14:41:13 bob-desktop systemd[1]: Reached target Multi-User System.
+Jul 28 14:41:13 bob-desktop systemd[1]: Reached target Graphical Interface.
+Jul 28 14:41:13 bob-desktop systemd[1]: Started Stop ureadahead data collection 45s after completed startup.
+Jul 28 14:41:13 bob-desktop systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jul 28 14:41:13 bob-desktop systemd[1]: Starting Bacula Director Daemon service...
+Jul 28 14:41:13 bob-desktop systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jul 28 14:41:13 bob-desktop systemd[1]: Started Bacula Director Daemon service.
+Jul 28 14:41:13 bob-desktop systemd[1]: Startup finished in 2.184s (kernel) + 10.176s (userspace) = 12.361s.
+Jul 28 14:41:13 bob-desktop nm-dispatcher: req:3 'connectivity-change': start running ordered scripts...
+Jul 28 14:41:16 bob-desktop whoopsie[1212]: [14:41:16] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul 28 14:41:16 bob-desktop whoopsie[1212]: [14:41:16] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul 28 14:41:16 bob-desktop whoopsie[1212]: [14:41:16] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Jul 28 14:41:34 bob-desktop systemd-timesyncd[649]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Jul 28 14:41:39 bob-desktop kernel: [   38.754110] logitech-hidpp-device 0003:046D:1024.0004: HID++ 1.0 device connected.
+Jul 28 14:41:39 bob-desktop upowerd[1031]: treating change event as add on /sys/devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.2/0003:046D:C52B.0003/0003:046D:1024.0004/power_supply/hidpp_battery_0
+Jul 28 14:41:58 bob-desktop systemd[1]: Starting Stop ureadahead data collection...
+Jul 28 14:41:58 bob-desktop systemd[1]: Started Stop ureadahead data collection.
+
+*******  Arduino Compile and Load of TL_TestOutput_float.ino with begin() in setup();  Loader asked for Teensy button  *******
+Jul 28 14:42:44 bob-desktop kernel: [  103.008961] usb 5-1: new high-speed USB device number 3 using xhci_hcd
+Jul 28 14:42:49 bob-desktop kernel: [  108.214896] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:43:04 bob-desktop kernel: [  123.825697] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:43:05 bob-desktop kernel: [  124.129528] usb 5-1: new high-speed USB device number 4 using xhci_hcd
+Jul 28 14:43:10 bob-desktop kernel: [  129.456080] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:43:26 bob-desktop kernel: [  145.080799] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:43:26 bob-desktop kernel: [  145.192846] usb usb5-port1: attempt power cycle
+Jul 28 14:43:26 bob-desktop kernel: [  145.917170] usb 5-1: new high-speed USB device number 5 using xhci_hcd
+Jul 28 14:43:35 bob-desktop kernel: [  154.110461] usb 5-1: Device not responding to setup address.
+Jul 28 14:43:35 bob-desktop kernel: [  154.110961] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:43:43 bob-desktop kernel: [  162.509799] usb 5-1: Device not responding to setup address.
+Jul 28 14:43:43 bob-desktop kernel: [  162.510253] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:43:43 bob-desktop kernel: [  162.714857] usb 5-1: device not accepting address 5, error -71
+Jul 28 14:43:43 bob-desktop kernel: [  162.715325] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:43:43 bob-desktop kernel: [  162.910918] usb 5-1: new high-speed USB device number 6 using xhci_hcd
+Jul 28 14:43:52 bob-desktop kernel: [  171.104160] usb 5-1: Device not responding to setup address.
+Jul 28 14:43:52 bob-desktop kernel: [  171.104642] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:44:00 bob-desktop kernel: [  179.505789] usb 5-1: Device not responding to setup address.
+Jul 28 14:44:00 bob-desktop kernel: [  179.506217] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:44:00 bob-desktop kernel: [  179.713369] usb 5-1: device not accepting address 6, error -71
+
+*******   About here, button on T4 pushed briefly, Responded with normal load       *******
+
+Jul 28 14:44:00 bob-desktop kernel: [  179.713389] usb usb5-port1: unable to enumerate USB device
+Jul 28 14:44:01 bob-desktop kernel: [  180.093523] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:44:01 bob-desktop kernel: [  180.289426] usb 5-1: new high-speed USB device number 7 using xhci_hcd
+Jul 28 14:44:01 bob-desktop kernel: [  180.505838] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 28 14:44:01 bob-desktop kernel: [  180.505841] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 28 14:44:01 bob-desktop kernel: [  180.505842] usb 5-1: SerialNumber: 00097D96
+Jul 28 14:44:01 bob-desktop kernel: [  180.509795] hid-generic 0003:16C0:0478.0006: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:44:01 bob-desktop kernel: [  180.924423] usb 5-1: USB disconnect, device number 7
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:44:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:44:02 bob-desktop kernel: [  181.209677] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:44:02 bob-desktop kernel: [  181.405498] usb 5-1: new high-speed USB device number 8 using xhci_hcd
+Jul 28 14:44:02 bob-desktop kernel: [  181.622039] usb 5-1: New USB device found, idVendor=16c0, idProduct=0483, bcdDevice= 2.79
+Jul 28 14:44:02 bob-desktop kernel: [  181.622041] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 28 14:44:02 bob-desktop kernel: [  181.622042] usb 5-1: Product: USB Serial
+Jul 28 14:44:02 bob-desktop kernel: [  181.622044] usb 5-1: Manufacturer: Teensyduino
+Jul 28 14:44:02 bob-desktop kernel: [  181.622045] usb 5-1: SerialNumber: 6219740
+Jul 28 14:44:02 bob-desktop kernel: [  181.638984] cdc_acm 5-1:1.0: ttyACM0: USB ACM device
+Jul 28 14:44:02 bob-desktop kernel: [  181.639391] usbcore: registered new interface driver cdc_acm
+Jul 28 14:44:02 bob-desktop kernel: [  181.639392] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Jul 28 14:44:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:44:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.1
+Jul 28 14:44:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+
+
+*******   at 1445 Arduino Sketch/Upload command  Good load                    **********************
+Jul 28 14:45:01 bob-desktop CRON[2560]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 28 14:45:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.1
+Jul 28 14:45:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:45:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:45:02 bob-desktop kernel: [  241.411204] usb 5-1: USB disconnect, device number 8
+Jul 28 14:45:02 bob-desktop kernel: [  241.627324] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:45:02 bob-desktop kernel: [  241.823178] usb 5-1: new high-speed USB device number 9 using xhci_hcd
+Jul 28 14:45:03 bob-desktop kernel: [  242.039427] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 28 14:45:03 bob-desktop kernel: [  242.039428] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 28 14:45:03 bob-desktop kernel: [  242.039429] usb 5-1: SerialNumber: 00097D96
+Jul 28 14:45:03 bob-desktop kernel: [  242.043200] hid-generic 0003:16C0:0478.0007: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0007
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0007
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:45:03 bob-desktop kernel: [  242.490476] usb 5-1: USB disconnect, device number 9
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:45:03 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:45:03 bob-desktop kernel: [  242.783243] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:45:04 bob-desktop kernel: [  242.979053] usb 5-1: new high-speed USB device number 10 using xhci_hcd
+Jul 28 14:45:04 bob-desktop kernel: [  243.195559] usb 5-1: New USB device found, idVendor=16c0, idProduct=0483, bcdDevice= 2.79
+Jul 28 14:45:04 bob-desktop kernel: [  243.195560] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 28 14:45:04 bob-desktop kernel: [  243.195562] usb 5-1: Product: USB Serial
+Jul 28 14:45:04 bob-desktop kernel: [  243.195563] usb 5-1: Manufacturer: Teensyduino
+Jul 28 14:45:04 bob-desktop kernel: [  243.195563] usb 5-1: SerialNumber: 6219740
+Jul 28 14:45:04 bob-desktop kernel: [  243.203057] cdc_acm 5-1:1.0: ttyACM0: USB ACM device
+Jul 28 14:45:04 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.1
+Jul 28 14:45:04 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:45:04 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:45:40 bob-desktop kernel: [  279.638384] logitech-hidpp-device 0003:046D:2011.0005: HID++ 1.0 device connected.
+Jul 28 14:45:40 bob-desktop upowerd[1031]: treating change event as add on /sys/devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13:1.2/0003:046D:C52B.0003/0003:046D:2011.0005/power_supply/hidpp_battery_1
+
+***  Changed code to have begin() in constructor for TL_AudioOutputI2S_OA_F32. Did Sketch/Upload;   load failed, Teensyduino loader corrupted     
+Jul 28 14:50:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.1
+Jul 28 14:50:01 bob-desktop kernel: [  540.763363] usb 5-1: USB disconnect, device number 10
+Jul 28 14:50:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:50:01 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:50:02 bob-desktop kernel: [  540.978862] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:50:02 bob-desktop kernel: [  541.174724] usb 5-1: new high-speed USB device number 11 using xhci_hcd
+Jul 28 14:50:02 bob-desktop kernel: [  541.391145] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 28 14:50:02 bob-desktop kernel: [  541.391148] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 28 14:50:02 bob-desktop kernel: [  541.391149] usb 5-1: SerialNumber: 00097D96
+Jul 28 14:50:02 bob-desktop kernel: [  541.395064] hid-generic 0003:16C0:0478.0008: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0008
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0008
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:50:02 bob-desktop kernel: [  541.823721] usb 5-1: USB disconnect, device number 11
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:50:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:50:03 bob-desktop kernel: [  542.111109] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:50:03 bob-desktop kernel: [  542.306951] usb 5-1: new high-speed USB device number 12 using xhci_hcd
+Jul 28 14:50:08 bob-desktop kernel: [  547.540158] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:50:24 bob-desktop kernel: [  563.159034] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:50:24 bob-desktop kernel: [  563.267515] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:50:24 bob-desktop kernel: [  563.463038] usb 5-1: new high-speed USB device number 13 using xhci_hcd
+Jul 28 14:50:29 bob-desktop kernel: [  568.792034] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:50:45 bob-desktop kernel: [  584.410460] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:50:45 bob-desktop kernel: [  584.518412] usb usb5-port1: attempt power cycle
+Jul 28 14:50:45 bob-desktop kernel: [  584.834593] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:50:46 bob-desktop kernel: [  585.238494] usb 5-1: new high-speed USB device number 14 using xhci_hcd
+Jul 28 14:50:54 bob-desktop kernel: [  593.431808] usb 5-1: Device not responding to setup address.
+Jul 28 14:50:54 bob-desktop kernel: [  593.432235] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:01 bob-desktop kernel: [  600.541702] usb 5-1: Device not responding to setup address.
+Jul 28 14:51:01 bob-desktop kernel: [  600.542114] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:01 bob-desktop kernel: [  600.748546] usb 5-1: device not accepting address 14, error -71
+Jul 28 14:51:01 bob-desktop kernel: [  600.748979] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:02 bob-desktop kernel: [  601.152607] usb 5-1: new high-speed USB device number 15 using xhci_hcd
+Jul 28 14:51:02 bob-desktop kernel: [  601.173047] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 28 14:51:02 bob-desktop kernel: [  601.173048] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 28 14:51:02 bob-desktop kernel: [  601.173049] usb 5-1: SerialNumber: 00097D96
+Jul 28 14:51:02 bob-desktop kernel: [  601.176796] hid-generic 0003:16C0:0478.0009: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0009
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0009
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:51:02 bob-desktop kernel: [  601.574428] usb 5-1: USB disconnect, device number 15
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 28 14:51:02 bob-desktop upowerd[1031]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 28 14:51:02 bob-desktop kernel: [  601.860887] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:03 bob-desktop kernel: [  602.056702] usb 5-1: new high-speed USB device number 16 using xhci_hcd
+Jul 28 14:51:08 bob-desktop kernel: [  607.453449] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:51:24 bob-desktop kernel: [  623.071175] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:51:24 bob-desktop kernel: [  623.179573] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:24 bob-desktop kernel: [  623.375061] usb 5-1: new high-speed USB device number 17 using xhci_hcd
+Jul 28 14:51:29 bob-desktop kernel: [  628.703711] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:51:45 bob-desktop kernel: [  644.321073] usb 5-1: device descriptor read/64, error -110
+Jul 28 14:51:45 bob-desktop kernel: [  644.428963] usb usb5-port1: attempt power cycle
+Jul 28 14:51:45 bob-desktop kernel: [  644.745162] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:51:46 bob-desktop kernel: [  645.149026] usb 5-1: new high-speed USB device number 18 using xhci_hcd
+Jul 28 14:51:54 bob-desktop kernel: [  653.342364] usb 5-1: Device not responding to setup address.
+Jul 28 14:51:54 bob-desktop kernel: [  653.342781] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:52:02 bob-desktop kernel: [  661.742942] usb 5-1: Device not responding to setup address.
+Jul 28 14:52:02 bob-desktop kernel: [  661.743385] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:52:02 bob-desktop kernel: [  661.950248] usb 5-1: device not accepting address 18, error -71
+Jul 28 14:52:02 bob-desktop kernel: [  661.950705] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:52:03 bob-desktop kernel: [  662.146246] usb 5-1: new high-speed USB device number 19 using xhci_hcd
+Jul 28 14:52:11 bob-desktop kernel: [  670.339563] usb 5-1: Device not responding to setup address.
+Jul 28 14:52:11 bob-desktop kernel: [  670.340039] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:52:19 bob-desktop kernel: [  678.740033] usb 5-1: Device not responding to setup address.
+Jul 28 14:52:19 bob-desktop kernel: [  678.740467] debugfs: Directory '02' with parent 'devices' already present!
+Jul 28 14:52:19 bob-desktop kernel: [  678.947257] usb 5-1: device not accepting address 19, error -71
+Jul 28 14:52:19 bob-desktop kernel: [  678.947277] usb usb5-port1: unable to enumerate USB device

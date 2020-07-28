@@ -1,4 +1,4 @@
-/* output_i2s_OA_f32.h
+/* TL_output_i2s_OA_f32.h
  * 
  * This is Teensy Audio output_i2s.h altered to support OpenAudio float (F32)
  * to allow direct output of F32 blocks to the codec. It is the Teensy Audio output
@@ -45,7 +45,7 @@
 
 #include "Arduino.h"
 #include "AudioStream.h"
-#include "TL_AudioStream_F32.h"
+#include "AudioStream_F32.h"
 #include "DMAChannel.h"
 
 class TL_AudioOutputI2S_OA_F32 : public AudioStream_F32
@@ -53,36 +53,17 @@ class TL_AudioOutputI2S_OA_F32 : public AudioStream_F32
 //GUI: inputs:2, outputs:0  //this line used for automatic generation of GUI node
 public:
 	// WAS AudioOutputI2S_OA_F32(void) : AudioStream_F32(2, inputQueueArray) {
-	AudioOutputI2S_OA_F32(int includeBegin) : AudioStream_F32(2, inputQueueArray) {
+	TL_AudioOutputI2S_OA_F32(int includeBegin) : AudioStream_F32(2, inputQueueArray) {
           if(includeBegin) begin(); // ONLY difference from standard Class.  Temporary for testing. <<<
     }
-	
-/*  This long form needs to be added  <<<<<<<<<<<<<<<<
-    AudioOutputI2S_OA_F32(const AudioSettings_F32 &settings) : AudioStream_F32(2, inputQueueArray)
-	{ 
-		sample_rate_Hz = settings.sample_rate_Hz;
-		audio_block_samples = settings.audio_block_samples;
-		begin(); 	
-	}
- */
 
 	virtual void update(void);
 	void begin(void);
   	friend class AudioInputI2S_OA_F32; 
 
-/*  These are 4, 6, and 8 channel options in I16 T4, not yet supported in F32
-#if defined(__IMXRT1062__)
-	friend class AudioOutputI2SQuad;
-	friend class AudioInputI2SQuad;
-	friend class AudioOutputI2SHex;
-	friend class AudioInputI2SHex;
-	friend class AudioOutputI2SOct;
-	friend class AudioInputI2SOct;
-#endif
-  */
 protected:
     // Next fcn to be used only inside AudioOutputI2S_OA_F32slave !!
-	AudioOutputI2S_OA_F32(int dummy): AudioStream_F32(2, inputQueueArray) {}
+//	AudioOutputI2S_OA_F32(int dummy): AudioStream_F32(2, inputQueueArray) {}
 	static void config_i2s(void);
 	static audio_block_t *block_left_1st;
 	static audio_block_t *block_right_1st;
@@ -97,6 +78,7 @@ private:
 	audio_block_f32_t *inputQueueArray[2];
 };
 
+#if 0
 class AudioOutputI2Sslave_OA_F32 : public AudioOutputI2S_OA_F32
 {
 public:
@@ -107,5 +89,6 @@ public:
 protected:
 	static void config_i2s(void);
 };
+#endif
 
 #endif
