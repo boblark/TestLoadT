@@ -1,0 +1,58 @@
+This is the non-working at the "upload" command (1555:00)
+Jul 27 15:55:01 bob-desktop kernel: [  272.847333] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 15:55:01 bob-desktop kernel: [  273.043212] usb 5-1: new high-speed USB device number 7 using xhci_hcd
+Jul 27 15:55:01 bob-desktop CRON[2464]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 27 15:55:01 bob-desktop kernel: [  273.259520] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 27 15:55:01 bob-desktop kernel: [  273.259526] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 27 15:55:01 bob-desktop kernel: [  273.259528] usb 5-1: SerialNumber: 00097D96
+Jul 27 15:55:01 bob-desktop kernel: [  273.263368] hid-generic 0003:16C0:0478.0006: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 27 15:55:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 27 15:55:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 15:55:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 27 15:55:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 27 15:55:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 15:55:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 15:55:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 27 15:55:02 bob-desktop kernel: [  273.751585] usb 5-1: USB disconnect, device number 7
+Jul 27 15:55:02 bob-desktop kernel: [  274.039579] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 15:55:02 bob-desktop kernel: [  274.235417] usb 5-1: new high-speed USB device number 8 using xhci_hcd
+Jul 27 15:55:08 bob-desktop kernel: [  279.648680] usb 5-1: device descriptor read/64, error -110
+Jul 27 15:55:23 bob-desktop kernel: [  295.268302] usb 5-1: device descriptor read/64, error -110
+Jul 27 15:55:24 bob-desktop kernel: [  295.376755] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 15:55:24 bob-desktop kernel: [  295.572278] usb 5-1: new high-speed USB device number 9 using xhci_hcd
+Jul 27 15:55:29 bob-desktop kernel: [  300.901681] usb 5-1: device descriptor read/64, error -110
+Jul 27 15:55:45 bob-desktop kernel: [  316.521670] usb 5-1: device descriptor read/64, error -110
+Jul 27 15:55:45 bob-desktop kernel: [  316.629633] usb usb5-port1: attempt power cycle
+Jul 27 15:55:45 bob-desktop kernel: [  316.945894] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 15:55:45 bob-desktop kernel: [  317.349811] usb 5-1: new high-speed USB device number 10 using xhci_hcd
+Jul 27 15:55:54 bob-desktop kernel: [  325.543143] usb 5-1: Device not responding to setup address.
+Jul 27 15:55:54 bob-desktop kernel: [  325.543557] debugfs: Directory '02' with parent 'devices' already present!
+
+    This is the working file at the "Upload" command (1636:00):
+Jul 27 16:36:01 bob-desktop kernel: [  253.807820] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 16:36:01 bob-desktop kernel: [  254.003652] usb 5-1: new high-speed USB device number 7 using xhci_hcd
+Jul 27 16:36:01 bob-desktop kernel: [  254.220117] usb 5-1: New USB device found, idVendor=16c0, idProduct=0478, bcdDevice= 1.05
+Jul 27 16:36:01 bob-desktop kernel: [  254.220119] usb 5-1: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 27 16:36:01 bob-desktop kernel: [  254.220121] usb 5-1: SerialNumber: 00097D96
+Jul 27 16:36:01 bob-desktop kernel: [  254.224105] hid-generic 0003:16C0:0478.0006: hidraw3: USB HID v1.11 Device [HID 16c0:0478] on usb-0000:09:00.0-1/input0
+Jul 27 16:36:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 27 16:36:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 16:36:01 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 27 16:36:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0/0003:16C0:0478.0006
+Jul 27 16:36:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 16:36:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
+Jul 27 16:36:02 bob-desktop upowerd[1067]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 27 16:36:02 bob-desktop kernel: [  254.740004] usb 5-1: USB disconnect, device number 7
+Jul 27 16:36:02 bob-desktop kernel: [  254.991979] debugfs: Directory '02' with parent 'devices' already present!
+Jul 27 16:36:02 bob-desktop kernel: [  255.187889] usb 5-1: new high-speed USB device number 8 using xhci_hcd
+Jul 27 16:36:03 bob-desktop kernel: [  255.340420] usb 5-1: New USB device found, idVendor=16c0, idProduct=0483, bcdDevice= 2.79
+Jul 27 16:36:03 bob-desktop kernel: [  255.340422] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 27 16:36:03 bob-desktop kernel: [  255.340423] usb 5-1: Product: USB Serial
+Jul 27 16:36:03 bob-desktop kernel: [  255.340424] usb 5-1: Manufacturer: Teensyduino
+Jul 27 16:36:03 bob-desktop kernel: [  255.340425] usb 5-1: SerialNumber: 6219740
+Jul 27 16:36:03 bob-desktop kernel: [  255.355201] cdc_acm 5-1:1.0: ttyACM0: USB ACM device
+Jul 27 16:36:03 bob-desktop kernel: [  255.355466] usbcore: registered new interface driver cdc_acm
+Jul 27 16:36:03 bob-desktop kernel: [  255.355467] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Jul 27 16:36:03 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1
+Jul 27 16:36:03 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.1
+Jul 27 16:36:03 bob-desktop upowerd[1067]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:1c.6/0000:09:00.0/usb5/5-1/5-1:1.0
