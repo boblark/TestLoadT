@@ -48,12 +48,13 @@
 #include "TL_AudioStream_F32.h"
 #include "DMAChannel.h"
 
-class AudioOutputI2S_OA_F32 : public AudioStream_F32
+class TL_AudioOutputI2S_OA_F32 : public AudioStream_F32
 {
 //GUI: inputs:2, outputs:0  //this line used for automatic generation of GUI node
 public:
-	AudioOutputI2S_OA_F32(void) : AudioStream_F32(2, inputQueueArray) {
-      // begin(); // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	// WAS AudioOutputI2S_OA_F32(void) : AudioStream_F32(2, inputQueueArray) {
+	AudioOutputI2S_OA_F32(int includeBegin) : AudioStream_F32(2, inputQueueArray) {
+          if(includeBegin) begin(); // ONLY difference from standard Class.  Temporary for testing. <<<
     }
 	
 /*  This long form needs to be added  <<<<<<<<<<<<<<<<
