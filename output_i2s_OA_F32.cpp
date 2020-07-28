@@ -1,4 +1,4 @@
-/* output_i2s_OA_f32.cpp
+/* TL_output_i2s_OA_f32.cpp
  * 
  * This is Teensy Audio output_i2s.h altered to support OpenAudio float (F32)
  * to allow direct output of F32 blocks to the codec. It is the Teensy Audio output
@@ -32,7 +32,7 @@
  */
 
 #include <Arduino.h>
-#include "output_i2s_OA_f32.h"
+#include "TL_output_i2s_OA_f32.h"
 #include "memcpy_audio.h"
 
 audio_block_t * AudioOutputI2S_OA_F32::block_left_1st = NULL;
