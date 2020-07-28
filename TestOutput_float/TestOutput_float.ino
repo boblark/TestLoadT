@@ -2,21 +2,29 @@
  * 
  */
 #include <Audio.h>
-#include <OpenAudio_ArduinoLibrary.h> 
+#include <TL_OpenAudio_ArduinoLibrary.h>
 
-AudioSynthWaveformSine_F32 sine1;
-AudioOutputI2S_OA_F32      i2sOut;
-AudioConnection_F32        patchCord1(sine1, 0, i2sOut, 0);
-AudioControlSGTL5000       sgtl5000_1;
+// If begin() is in constructor, load fails, if in setup, all is OK
+// Change by next define 1 or 0
+#define BEGIN_IN_CONSTRUCTOR 1;
+
+AudioSynthWaveformSine_F32  sine1;
+TL_AudioOutputI2S_OA_F32    i2sOut(BEGIN_IN_CONSTRUCTOR);
+AudioConnection_F32         patchCord1(sine1, 0, i2sOut, 0);
+AudioControlSGTL5000        sgtl5000_1;
 
 void setup(void) {
-  Serial.begin(9600);   delay(1000);
-  Serial.println("Open Audio: Test direct F32 Output"); 
+  Serial.begin(9600);   delay(1000);  // Any speed is OK
+  Serial.print("Test load of F32 out with ");
+  if (BEGIN_IN_CONSTRUCTOR)
+     Serial.println("call to begin() in TL_AudioOutputI2S_OA_F32 constructor.");
+  else
+     Serial.println("call to begin() in setup().");
   AudioMemory(10);
   AudioMemory_F32(10);
 
   // Next line, moved from constructor, allows Loader to operate without crash
-                   i2sOut.begin();  // Uncomment here and comment out in constructor for AudioOutputI2S_OA_F32
+  if(!BEGIN_IN_CONSTRUCTOR) i2sOut.begin();
   
   sgtl5000_1.enable();
   
