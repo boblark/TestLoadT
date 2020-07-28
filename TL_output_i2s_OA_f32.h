@@ -36,12 +36,16 @@
  * THE SOFTWARE.
  */
 
-#ifndef output_i2s_OA_F32_h_
-#define output_i2s_OA_F32_h_
+// **********************************************************************
+// NOT FOR GENERAL USE  -  TO TEST Teensy Loading  -  NOT FOR GENERAL USE 
+// **********************************************************************
+
+#ifndef TL_output_i2s_OA_F32_h_
+#define TL_output_i2s_OA_F32_h_
 
 #include "Arduino.h"
 #include "AudioStream.h"
-#include "AudioStream_F32.h"
+#include "TL_AudioStream_F32.h"
 #include "DMAChannel.h"
 
 class AudioOutputI2S_OA_F32 : public AudioStream_F32
