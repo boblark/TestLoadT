@@ -6,10 +6,11 @@
 
 
 // *****************  PLACE TO CHANGE  *****************
-// If begin() is in constructor, i.e., BEGIN_IN_CONSTRUCTOR==1  load fails
+// Following "fails" is only for Teensy 4.0, Teensy 3.6 is OK
+// If begin() is in constructor, i.e., BEGIN_IN_CONSTRUCTOR==1  T4.0 load fails
 // If begin() is in setup(), i.e., BEGIN_IN_CONSTRUCTOR==0  all is OK
 // Change by next define 1 or 0
-#define BEGIN_IN_CONSTRUCTOR 0
+#define BEGIN_IN_CONSTRUCTOR 1
 // *****************************************************
 
 
