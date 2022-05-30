@@ -1,4 +1,13 @@
 # TestLoadT
+
+SOLVED 
+------
+
+In 2021 this problem was solved by a bug fix in the Linux kernel related to the handling of USB ports.
+As of this May2022 writing, no further problems have been seen.  This material will be removed in the future.
+Bob
+
+
 Test failures of loading Teensy
 
 In my experience the load/boot problem is only for Teensy 4.0.
